@@ -54,9 +54,9 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
                  */
                 UserDetails userDetails = customUserDetailsService.loadUserById(userId);
                 
-                EmailSubject emailSubject = null;
+//                EmailSubject emailSubject = null;
 
-        		emailSubject = EmailSubject.getInstance(emailDetailsRepository);
+//        		emailSubject = EmailSubject.getInstance(emailDetailsRepository);
         		
 //        		emailSubject.setUserId(userId);
         			
