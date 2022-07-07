@@ -22,199 +22,183 @@ import com.foucsr.ticketmanager.mysql.database.repository.GroupAgentRepository;
 import com.foucsr.ticketmanager.payload.ApiResponse;
 import com.foucsr.ticketmanager.util.SCAUtil;
 
-
 @Service
 public class GroupAgentService {
 	@Autowired
 	private GroupAgentRepository groupAgentRepository;
-	
+
 	@Autowired
 	private BusinessFunctionRepository businessfunctrepository;
-	
-	
-	// GET BY ID 
-	public GroupAgents getGroupAgents(Long groupAgentId) throws IdNotFoundException
-	{
-		return groupAgentRepository.findById(groupAgentId).orElseThrow(() -> new IdNotFoundException("Given Id not Found"));
+
+	// GET BY ID
+	public GroupAgents getGroupAgents(Long groupAgentId) throws IdNotFoundException {
+		return groupAgentRepository.findById(groupAgentId)
+				.orElseThrow(() -> new IdNotFoundException("Given Id not Found"));
 	}
-	
+
 	// GET BY NAME
-	
-	public GroupAgents getGroupAgentByName(String groupAgentName)
-	{
+
+	public GroupAgents getGroupAgentByName(String groupAgentName) {
 		return groupAgentRepository.findGroupAgentsByName(groupAgentName);
 	}
-	
+
 	// DELETE BY ID
 	public String deleteGroupAgents(Long groupAgentId) throws IdNotFoundException {
-		GroupAgents delGroup = groupAgentRepository.findById(groupAgentId).orElseThrow(() -> new IdNotFoundException("Given Id not Found"));
+		GroupAgents delGroup = groupAgentRepository.findById(groupAgentId)
+				.orElseThrow(() -> new IdNotFoundException("Given Id not Found"));
 		groupAgentRepository.delete(delGroup);
-		return "The Given GroupAgent ID "+groupAgentId+" is deleted successfully...!!!";
+		return "The Given GroupAgent ID " + groupAgentId + " is deleted successfully...!!!";
 	}
-	
+
 	// DELETE ALL
 	public String deleteAllGroupAgents() {
-		//GroupAgents delGroup = groupAgentRepository.findById(groupAgentId).orElseThrow(() -> new IdNotFoundException("Given Id not Found"));
+		// GroupAgents delGroup =
+		// groupAgentRepository.findById(groupAgentId).orElseThrow(() -> new
+		// IdNotFoundException("Given Id not Found"));
 		groupAgentRepository.deleteAll();
 		return "All entries was deleted successfully...!!!";
 	}
 
 	Logger log = LoggerFactory.getLogger(GroupAgentService.class);
 	SCAUtil sca = new SCAUtil();
-	
-	public ResponseEntity<?> CreateorUpdateGroupAgents(GroupAgents groupAgents,HttpServletRequest http)
-	{
-		
-		if (!"Y".equalsIgnoreCase(groupAgents.getTicketAssignment()) && !"N".equalsIgnoreCase(groupAgents.getTicketAssignment())) {
+
+	public ResponseEntity<?> CreateorUpdateGroupAgents(GroupAgents groupAgents, HttpServletRequest http) {
+
+		if (!"Y".equalsIgnoreCase(groupAgents.getTicketAssignment())
+				&& !"N".equalsIgnoreCase(groupAgents.getTicketAssignment())) {
 
 			return new ResponseEntity(new ApiResponse(false, "Ticket should Y/N type"), HttpStatus.NOT_ACCEPTABLE);
 		}
-		
-		try
-		{
+
+		try {
 			Long groupAgentId = groupAgents.getGroupAgentId();
-			
-			if(groupAgents.getGroupAgentId() != null)
-			{
+
+			if (groupAgents.getGroupAgentId() != null) {
 				GroupAgents isgroupAgents = groupAgentRepository.findGroupAgentsById(groupAgentId);
-				
-				if(isgroupAgents == null)
-				{
-					return new ResponseEntity(new ApiResponse(false, "No Groups Found"),HttpStatus.REQUESTED_RANGE_NOT_SATISFIABLE);
+
+				if (isgroupAgents == null) {
+					return new ResponseEntity(new ApiResponse(false, "No Groups Found"),
+							HttpStatus.REQUESTED_RANGE_NOT_SATISFIABLE);
 				}
 			}
-			
+
 			groupAgentRepository.save(groupAgents);
-			
+
 		}
-		
-		catch(Exception e)
-		{
+
+		catch (Exception e) {
 			SCAUtil sca = new SCAUtil();
-			
-			log.error("*****!!! UNABLE TO CREATE !!!*******"+e);
-			
+
+			log.error("*****!!! UNABLE TO CREATE !!!*******" + e);
+
 			String msg = sca.getErrorMessage(e);
-			
-			return new ResponseEntity(new ApiResponse(false, "Unable to save GroupAgents"+msg),HttpStatus.BAD_REQUEST);
+
+			return new ResponseEntity(new ApiResponse(false, "Unable to save GroupAgents" + msg),
+					HttpStatus.BAD_REQUEST);
 		}
-		
-		return new ResponseEntity(groupAgents,HttpStatus.CREATED);
+
+		return new ResponseEntity(groupAgents, HttpStatus.CREATED);
 	}
-	
+
 	// GET ALL
-	public ResponseEntity<?> getGroupAgents()
-	{
-		
+	public ResponseEntity<?> getGroupAgents() {
+
 		List<GroupAgents> groups;
-		
-		try
-		{
+
+		try {
 			groups = groupAgentRepository.findAll();
-			
-			if(groups == null)
-			{
+
+			if (groups == null) {
 				groups = new ArrayList<GroupAgents>();
 			}
-		}
-		catch(Exception e)
-		{
+		} catch (Exception e) {
 			SCAUtil sca = new SCAUtil();
 			log.error("***!!! not able to fetch Groups!!! ***");
-			
+
 			String msg = sca.getErrorMessage(e);
-			
-			return new ResponseEntity(new ApiResponse(false, "Facing issue to get GroupAgents!"+msg),HttpStatus.BAD_REQUEST);
-			
+
+			return new ResponseEntity(new ApiResponse(false, "Facing issue to get GroupAgents!" + msg),
+					HttpStatus.BAD_REQUEST);
+
 		}
-		return new ResponseEntity(groups,HttpStatus.OK);
+		return new ResponseEntity(groups, HttpStatus.OK);
 	}
-	
+
 	// CREATE BUSINESS FUNCTIONS --
-	
-	public ResponseEntity<?> createorUpdateBusinessFunctions(BusinessFunctions businessfunct,HttpServletRequest http)
-	{
-		
-		try
-		{
+
+	public ResponseEntity<?> createorUpdateBusinessFunctions(BusinessFunctions businessfunct, HttpServletRequest http) {
+
+		try {
 			Long businessId = businessfunct.getBusinessId();
-			
-			if(businessfunct.getBusinessId() != null)
-			{
+
+			if (businessfunct.getBusinessId() != null) {
 				BusinessFunctions isbusinessfunctions = businessfunctrepository.findBusinessFunctionsById(businessId);
-				
-				if(isbusinessfunctions == null)
-				{
-					return new ResponseEntity(new ApiResponse(false, "No Groups Found"),HttpStatus.REQUESTED_RANGE_NOT_SATISFIABLE);
+
+				if (isbusinessfunctions == null) {
+					return new ResponseEntity(new ApiResponse(false, "No Groups Found"),
+							HttpStatus.REQUESTED_RANGE_NOT_SATISFIABLE);
 				}
 			}
-			
+
 			businessfunctrepository.save(businessfunct);
-		}
-		catch(Exception e)
-		{
+		} catch (Exception e) {
 			log.error("***!!! not able to fetch Groups!!! ***");
-			
+
 			String msg = sca.getErrorMessage(e);
-			
-			return new ResponseEntity(new ApiResponse(false, "Business functions not saved"+msg),HttpStatus.BAD_REQUEST);	
+
+			return new ResponseEntity(new ApiResponse(false, "Business functions not saved" + msg),
+					HttpStatus.BAD_REQUEST);
 		}
-		
-		return new ResponseEntity(businessfunct,HttpStatus.OK);
-		
+
+		return new ResponseEntity(businessfunct, HttpStatus.OK);
+
 	}
-	
-	public ResponseEntity<?> getBusinessFunctions()
-	{
-		
+
+	public ResponseEntity<?> getBusinessFunctions() {
+
 		List<BusinessFunctions> functions;
-		
-		try
-		{
+
+		try {
 			functions = businessfunctrepository.findAll();
-			
-			if(functions == null)
-			{
+
+			if (functions == null) {
 				functions = new ArrayList<BusinessFunctions>();
 			}
-		}
-		catch(Exception e)
-		{
+		} catch (Exception e) {
 			log.error("***!!! not able to fetch Business Functions!!! ***");
-			
+
 			String msg = sca.getErrorMessage(e);
-			
-			return new ResponseEntity(new ApiResponse(false, "Facing issue to get Business Functions!"+msg),HttpStatus.BAD_REQUEST);
-			
+
+			return new ResponseEntity(new ApiResponse(false, "Facing issue to get Business Functions!" + msg),
+					HttpStatus.BAD_REQUEST);
+
 		}
-		return new ResponseEntity(functions,HttpStatus.OK);
+		return new ResponseEntity(functions, HttpStatus.OK);
 	}
-	
+
 	// UNASSIGNED TICKETS --
-	
-	public ResponseEntity<?> getUnAssignedTicket()
-	{
+
+	public ResponseEntity<?> getUnAssignedTicket() {
 		List<UnAssignedTicket> unassignticket = new ArrayList<>();
-		
+
 		List<String> ticketunassigns = new ArrayList<>();
-		
+
 		ticketunassigns.add("15 minutes");
 		ticketunassigns.add("30 minutes");
 		ticketunassigns.add("60 minutes");
 		ticketunassigns.add("120 minutes");
-		
+
 		Long ticketId = (long) 101;
-		
-		for (String timers : ticketunassigns)
-		{
+
+		for (String timers : ticketunassigns) {
 			UnAssignedTicket unassignticketsconst = new UnAssignedTicket();
 			unassignticketsconst.setTicketId(ticketId);
 			unassignticketsconst.setUnassignedTime(timers);
-			
+
 			unassignticket.add(unassignticketsconst);
 			ticketId++;
 		}
-		
-		return new ResponseEntity(unassignticket,HttpStatus.OK);
+
+		return new ResponseEntity(unassignticket, HttpStatus.OK);
 	}
 }
