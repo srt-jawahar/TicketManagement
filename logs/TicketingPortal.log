@@ -1,1459 +1,178 @@
-2022-07-06 11:53:16 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:121) - Scanning for repositories in packages com.foucsr.ticketmanager.mysql.database.repository.
-2022-07-06 11:53:16 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: businessFunctionRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.BusinessFunctionRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-06 11:53:16 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: unassignedTicketTimeRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.UnassignedTicketTimeRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-06 11:53:16 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: emailDetailsRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.EmailDetailsRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-06 11:53:16 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: roleRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.RoleRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-06 11:53:16 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: groupAgentRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.GroupAgentRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-06 11:53:16 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: userRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.UserRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-06 11:53:17 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: screensRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.ScreensRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-06 11:53:17 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:153) - Finished repository scanning.
-2022-07-06 11:53:17 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:121) - Scanning for repositories in packages com.foucsr.ticketmanager.mysql.database.repository.
-2022-07-06 11:53:17 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: userRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.UserRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-06 11:53:17 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: screensRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.ScreensRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-06 11:53:17 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: emailDetailsRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.EmailDetailsRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-06 11:53:17 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: unassignedTicketTimeRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.UnassignedTicketTimeRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-06 11:53:17 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: roleRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.RoleRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-06 11:53:17 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: businessFunctionRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.BusinessFunctionRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-06 11:53:17 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: groupAgentRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.GroupAgentRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-06 11:53:17 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:153) - Finished repository scanning.
-2022-07-06 11:53:17 INFO  [restartedMain] (o.a.j.l.DirectJDKLog:180) - Initializing ProtocolHandler ["http-nio-9090"]
-2022-07-06 11:53:17 INFO  [restartedMain] (o.a.j.l.DirectJDKLog:180) - Starting service [Tomcat]
-2022-07-06 11:53:17 INFO  [restartedMain] (o.a.j.l.DirectJDKLog:180) - Starting Servlet Engine: Apache Tomcat/8.5.34
-2022-07-06 11:53:17 INFO  [localhost-startStop-1] (o.a.j.l.DirectJDKLog:180) - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_321\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/Phalgune/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208/jre/bin/server;C:/Users/Phalgune/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;D:\FocusR\Maven\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;D:\FocusR\Mysql\mysql-8.0.29-winx64-debug-test\mysql-8.0.29-winx64\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk1.8.0_321\bin;C:\Program Files\Java\jdk-17.0.3.1\bin;D:\FocusR\Git\Git\bin;D:\FocusR\Maven\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\Users\Jawahar\AppData\Local\Microsoft\WindowsApps;D:\FocusR\Git\Git\cmd;C:\Users\Jawahar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Jawahar\AppData\Roaming\npm;C:\Users\Jawahar\Downloads\java-2022-03-20220502T091501Z-001\java-2022-03\eclipse;;.]
-2022-07-06 11:53:17 INFO  [localhost-startStop-1] (o.a.j.l.DirectJDKLog:180) - Initializing Spring embedded WebApplicationContext
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:495) - Driver class com.mysql.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
-  context: TicketManager
-  delegate: true
-----------> Parent Classloader:
-org.springframework.boot.devtools.restart.classloader.RestartClassLoader@334fcf27
-
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1119) - HikariPool-1 - configuration:
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - allowPoolSuspension.............false
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - autoCommit......................true
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - catalog.........................none
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - connectionInitSql...............none
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - connectionTestQuery.............none
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - connectionTimeout...............30000
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - dataSource......................none
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - dataSourceClassName.............none
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - dataSourceJNDI..................none
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - dataSourceProperties............{password=<masked>}
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - driverClassName................."com.mysql.jdbc.Driver"
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - healthCheckProperties...........{}
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - healthCheckRegistry.............none
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - idleTimeout.....................600000
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - initializationFailFast..........true
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - initializationFailTimeout.......1
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - isolateInternalQueries..........false
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - jdbc4ConnectionTest.............false
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - jdbcUrl.........................jdbc:mysql://122.165.191.124:3306/ticket_manager_dev?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - leakDetectionThreshold..........0
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - maxLifetime.....................1800000
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - maximumPoolSize.................10
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - metricRegistry..................none
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - metricsTrackerFactory...........none
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - minimumIdle.....................10
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - password........................<masked>
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - poolName........................"HikariPool-1"
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - readOnly........................false
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - registerMbeans..................false
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - scheduledExecutor...............none
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - scheduledExecutorService........internal
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - schema..........................none
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - threadFactory...................internal
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - transactionIsolation............default
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - username........................"demo"
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - validationTimeout...............5000
-2022-07-06 11:53:18 INFO  [localhost-startStop-1] (c.z.h.HikariDataSource:110) - HikariPool-1 - Starting...
-2022-07-06 11:53:18 DEBUG [localhost-startStop-1] (c.z.h.pool.HikariPool:538) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@c0837a6
-2022-07-06 11:53:18 INFO  [localhost-startStop-1] (c.z.h.HikariDataSource:123) - HikariPool-1 - Start completed.
-2022-07-06 11:53:19 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
-2022-07-06 11:53:19 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@571b7f12
-2022-07-06 11:53:19 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@23418f6c
-2022-07-06 11:53:20 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@6fe09b9c
-2022-07-06 11:53:20 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@1cd78f4d
-2022-07-06 11:53:20 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@23121bf0
-2022-07-06 11:53:20 DEBUG [localhost-startStop-1] (o.s.d.j.r.c.JpaMetamodelMappingContextFactoryBean:77) - Initializing JpaMetamodelMappingContext…
-2022-07-06 11:53:20 DEBUG [localhost-startStop-1] (o.s.d.j.r.c.JpaMetamodelMappingContextFactoryBean:84) - Finished initializing JpaMetamodelMappingContext!
-2022-07-06 11:53:21 DEBUG [localhost-startStop-1] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.ticketmanager.mysql.database.repository.UserRepository…
-2022-07-06 11:53:21 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByUsername
-2022-07-06 11:53:21 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.findByUsername
-2022-07-06 11:53:21 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.findByUsername
-2022-07-06 11:53:21 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByEmail
-2022-07-06 11:53:21 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.findByEmail
-2022-07-06 11:53:21 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.findByEmail
-2022-07-06 11:53:21 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByResetToken
-2022-07-06 11:53:21 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.findByResetToken
-2022-07-06 11:53:21 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.findByResetToken
-2022-07-06 11:53:21 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByFirstNameAndLastName
-2022-07-06 11:53:21 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findUser
-2022-07-06 11:53:21 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByIdIn
-2022-07-06 11:53:21 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.findByIdIn
-2022-07-06 11:53:21 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.findByIdIn
-2022-07-06 11:53:21 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByVendorId
-2022-07-06 11:53:21 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByUsernameOrEmail
-2022-07-06 11:53:21 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.findByUsernameOrEmail
-2022-07-06 11:53:21 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.findByUsernameOrEmail
-2022-07-06 11:53:21 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findListOfUsers
-2022-07-06 11:53:21 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByAgentId
-2022-07-06 11:53:21 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method existsByUsername
-2022-07-06 11:53:21 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.existsByUsername
-2022-07-06 11:53:21 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.existsByUsername
-2022-07-06 11:53:21 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method existsByEmail
-2022-07-06 11:53:21 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.existsByEmail
-2022-07-06 11:53:21 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.existsByEmail
-2022-07-06 11:53:21 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findUserByIdToActiveOrInactive
-2022-07-06 11:53:21 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findFirstAdmin
-2022-07-06 11:53:21 DEBUG [localhost-startStop-1] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.ticketmanager.mysql.database.repository.UserRepository.
-2022-07-06 11:53:21 DEBUG [localhost-startStop-1] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.ticketmanager.mysql.database.repository.EmailDetailsRepository…
-2022-07-06 11:53:21 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findOneEmailDetails
-2022-07-06 11:53:21 DEBUG [localhost-startStop-1] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.ticketmanager.mysql.database.repository.EmailDetailsRepository.
-2022-07-06 11:53:21 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@31f5e929
-2022-07-06 11:53:21 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.ticketmanager.mysql.database.repository.RoleRepository…
-2022-07-06 11:53:21 DEBUG [restartedMain] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByName
-2022-07-06 11:53:21 DEBUG [restartedMain] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query Role.findByName
-2022-07-06 11:53:21 DEBUG [restartedMain] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query Role.findByName
-2022-07-06 11:53:21 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.ticketmanager.mysql.database.repository.RoleRepository.
-2022-07-06 11:53:21 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.ticketmanager.mysql.database.repository.GroupAgentRepository…
-2022-07-06 11:53:21 DEBUG [restartedMain] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findGroupAgentsByName
-2022-07-06 11:53:21 DEBUG [restartedMain] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findGroupAgentsById
-2022-07-06 11:53:21 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.ticketmanager.mysql.database.repository.GroupAgentRepository.
-2022-07-06 11:53:21 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.ticketmanager.mysql.database.repository.BusinessFunctionRepository…
-2022-07-06 11:53:21 DEBUG [restartedMain] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findBusinessFunctionsById
-2022-07-06 11:53:21 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.ticketmanager.mysql.database.repository.BusinessFunctionRepository.
-2022-07-06 11:53:21 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.ticketmanager.mysql.database.repository.ScreensRepository…
-2022-07-06 11:53:21 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.ticketmanager.mysql.database.repository.ScreensRepository.
-2022-07-06 11:53:21 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@2924d767
-2022-07-06 11:53:21 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.ticketmanager.mysql.database.repository.UnassignedTicketTimeRepository…
-2022-07-06 11:53:21 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.ticketmanager.mysql.database.repository.UnassignedTicketTimeRepository.
-2022-07-06 11:53:22 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@2c97083e
-2022-07-06 11:53:22 INFO  [restartedMain] (o.a.j.l.DirectJDKLog:180) - Starting ProtocolHandler ["http-nio-9090"]
-2022-07-06 11:53:22 INFO  [restartedMain] (o.a.j.l.DirectJDKLog:180) - Using a shared selector for servlet write/read
-2022-07-06 11:53:22 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@24697d9c
-2022-07-06 11:53:22 DEBUG [HikariPool-1 connection adder] (c.z.h.pool.HikariPool:404) - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
-2022-07-06 11:53:49 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-06 11:54:19 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-06 11:54:34 INFO  [http-nio-9090-exec-2] (o.a.j.l.DirectJDKLog:180) - Initializing Spring FrameworkServlet 'dispatcherServlet'
-2022-07-06 11:54:34 INFO  [http-nio-9090-exec-2] (c.f.t.s.JwtAuthenticationFilter:44) - Requested URL  : http://localhost:9090/TicketManager/api/auth/signin
-2022-07-06 11:54:35 ERROR [http-nio-9090-exec-2] (c.f.t.s.JwtTokenProvider:90) - Expired JWT token
-2022-07-06 11:54:35 INFO  [http-nio-9090-exec-2] (c.f.t.m.d.c.AuthController:244) - ***************** User signin *********************
-sysadmin@gmail.com
-2022-07-06 11:54:49 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-06 11:55:19 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-06 11:55:49 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-06 11:56:19 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-06 11:56:49 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-06 11:57:19 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-06 11:57:49 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-06 11:58:19 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-06 11:58:49 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-06 11:59:19 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-06 11:59:41 INFO  [http-nio-9090-exec-5] (c.f.t.s.JwtAuthenticationFilter:44) - Requested URL  : http://localhost:9090/TicketManager/api/auth/signup
-2022-07-06 11:59:49 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-06 11:59:57 INFO  [http-nio-9090-exec-7] (c.f.t.s.JwtAuthenticationFilter:44) - Requested URL  : http://localhost:9090/TicketManager/api/auth/signup
-2022-07-06 12:00:19 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-06 12:00:30 INFO  [http-nio-9090-exec-9] (c.f.t.s.JwtAuthenticationFilter:44) - Requested URL  : http://localhost:9090/TicketManager/api/auth/signup
-2022-07-06 12:00:35 WARN  [http-nio-9090-exec-9] (c.z.hikari.pool.PoolBase:173) - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@c0837a6 (No operations allowed after connection closed.)
-2022-07-06 12:00:35 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@c0837a6: (connection is dead)
-2022-07-06 12:00:35 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:136) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@c0837a6 failed
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
-	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1192)
-	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1187)
-	at com.mysql.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:5494)
-	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
-	at com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:129)
-	at com.zaxxer.hikari.pool.HikariPool.lambda$closeConnection$1(HikariPool.java:434)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:00:35 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@66a676fe
-2022-07-06 12:00:35 DEBUG [HikariPool-1 connection adder] (c.z.h.pool.HikariPool:404) - HikariPool-1 - After adding stats (total=10, active=1, idle=9, waiting=0)
-2022-07-06 12:00:40 WARN  [http-nio-9090-exec-9] (c.z.hikari.pool.PoolBase:173) - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@571b7f12 (No operations allowed after connection closed.)
-2022-07-06 12:00:40 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@571b7f12: (connection is dead)
-2022-07-06 12:00:40 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:136) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@571b7f12 failed
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
-	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1192)
-	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1187)
-	at com.mysql.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:5494)
-	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
-	at com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:129)
-	at com.zaxxer.hikari.pool.HikariPool.lambda$closeConnection$1(HikariPool.java:434)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:00:40 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@12cd141b
-2022-07-06 12:00:40 DEBUG [HikariPool-1 connection adder] (c.z.h.pool.HikariPool:404) - HikariPool-1 - After adding stats (total=10, active=1, idle=9, waiting=0)
-2022-07-06 12:00:45 WARN  [http-nio-9090-exec-9] (c.z.hikari.pool.PoolBase:173) - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@23418f6c (No operations allowed after connection closed.)
-2022-07-06 12:00:45 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@23418f6c: (connection is dead)
-2022-07-06 12:00:45 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:136) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@23418f6c failed
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
-	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1192)
-	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1187)
-	at com.mysql.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:5494)
-	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
-	at com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:129)
-	at com.zaxxer.hikari.pool.HikariPool.lambda$closeConnection$1(HikariPool.java:434)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:00:45 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@2d91804e
-2022-07-06 12:00:45 DEBUG [HikariPool-1 connection adder] (c.z.h.pool.HikariPool:404) - HikariPool-1 - After adding stats (total=10, active=1, idle=9, waiting=0)
-2022-07-06 12:00:49 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
-2022-07-06 12:00:50 WARN  [http-nio-9090-exec-9] (c.z.hikari.pool.PoolBase:173) - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@6fe09b9c (No operations allowed after connection closed.)
-2022-07-06 12:00:50 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@6fe09b9c: (connection is dead)
-2022-07-06 12:00:50 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:136) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@6fe09b9c failed
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
-	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1192)
-	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1187)
-	at com.mysql.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:5494)
-	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
-	at com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:129)
-	at com.zaxxer.hikari.pool.HikariPool.lambda$closeConnection$1(HikariPool.java:434)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:00:50 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@47c5b423
-2022-07-06 12:00:50 DEBUG [HikariPool-1 connection adder] (c.z.h.pool.HikariPool:404) - HikariPool-1 - After adding stats (total=10, active=1, idle=9, waiting=0)
-2022-07-06 12:00:55 WARN  [http-nio-9090-exec-9] (c.z.hikari.pool.PoolBase:173) - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@1cd78f4d (No operations allowed after connection closed.)
-2022-07-06 12:00:55 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@1cd78f4d: (connection is dead)
-2022-07-06 12:00:55 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:136) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@1cd78f4d failed
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
-	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1192)
-	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1187)
-	at com.mysql.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:5494)
-	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
-	at com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:129)
-	at com.zaxxer.hikari.pool.HikariPool.lambda$closeConnection$1(HikariPool.java:434)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:00:56 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@377197b5
-2022-07-06 12:00:56 DEBUG [HikariPool-1 connection adder] (c.z.h.pool.HikariPool:404) - HikariPool-1 - After adding stats (total=10, active=1, idle=9, waiting=0)
-2022-07-06 12:01:00 WARN  [http-nio-9090-exec-9] (c.z.hikari.pool.PoolBase:173) - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@23121bf0 (No operations allowed after connection closed.)
-2022-07-06 12:01:00 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@23121bf0: (connection is dead)
-2022-07-06 12:01:00 DEBUG [http-nio-9090-exec-9] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Timeout failure stats (total=9, active=0, idle=9, waiting=0)
-2022-07-06 12:01:00 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:136) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@23121bf0 failed
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
-	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1192)
-	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1187)
-	at com.mysql.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:5494)
-	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
-	at com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:129)
-	at com.zaxxer.hikari.pool.HikariPool.lambda$closeConnection$1(HikariPool.java:434)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:01:00 ERROR [http-nio-9090-exec-9] (c.f.t.m.d.c.AuthController:375) - ***************** Unable to register user!  *********************
-org.springframework.dao.DataAccessResourceFailureException: Unable to acquire JDBC Connection; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection
-2022-07-06 12:01:00 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@290b0c11
-2022-07-06 12:01:00 DEBUG [HikariPool-1 connection adder] (c.z.h.pool.HikariPool:404) - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
-2022-07-06 12:01:19 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-06 12:01:49 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-06 12:02:19 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-06 12:02:49 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-06 12:03:00 INFO  [http-nio-9090-exec-1] (c.f.t.s.JwtAuthenticationFilter:44) - Requested URL  : http://localhost:9090/TicketManager/api/auth/signup
-2022-07-06 12:03:05 WARN  [http-nio-9090-exec-1] (c.z.hikari.pool.PoolBase:173) - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@31f5e929 (No operations allowed after connection closed.)
-2022-07-06 12:03:05 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@31f5e929: (connection is dead)
-2022-07-06 12:03:05 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:136) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@31f5e929 failed
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
-	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1192)
-	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1187)
-	at com.mysql.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:5494)
-	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
-	at com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:129)
-	at com.zaxxer.hikari.pool.HikariPool.lambda$closeConnection$1(HikariPool.java:434)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:03:05 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@4d84eb6a
-2022-07-06 12:03:05 DEBUG [HikariPool-1 connection adder] (c.z.h.pool.HikariPool:404) - HikariPool-1 - After adding stats (total=10, active=1, idle=9, waiting=0)
-2022-07-06 12:03:10 WARN  [http-nio-9090-exec-1] (c.z.hikari.pool.PoolBase:173) - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@2924d767 (No operations allowed after connection closed.)
-2022-07-06 12:03:10 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@2924d767: (connection is dead)
-2022-07-06 12:03:10 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:136) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@2924d767 failed
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
-	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1192)
-	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1187)
-	at com.mysql.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:5494)
-	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
-	at com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:129)
-	at com.zaxxer.hikari.pool.HikariPool.lambda$closeConnection$1(HikariPool.java:434)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:03:10 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@39c48554
-2022-07-06 12:03:10 DEBUG [HikariPool-1 connection adder] (c.z.h.pool.HikariPool:404) - HikariPool-1 - After adding stats (total=10, active=1, idle=9, waiting=0)
-2022-07-06 12:03:15 WARN  [http-nio-9090-exec-1] (c.z.hikari.pool.PoolBase:173) - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@2c97083e (No operations allowed after connection closed.)
-2022-07-06 12:03:15 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@2c97083e: (connection is dead)
-2022-07-06 12:03:15 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:136) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@2c97083e failed
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
-	at sun.reflect.GeneratedConstructorAccessor65.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
-	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1192)
-	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1187)
-	at com.mysql.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:5494)
-	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
-	at com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:129)
-	at com.zaxxer.hikari.pool.HikariPool.lambda$closeConnection$1(HikariPool.java:434)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:03:15 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@99e3961
-2022-07-06 12:03:15 DEBUG [HikariPool-1 connection adder] (c.z.h.pool.HikariPool:404) - HikariPool-1 - After adding stats (total=10, active=1, idle=9, waiting=0)
-2022-07-06 12:03:19 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
-2022-07-06 12:03:20 WARN  [http-nio-9090-exec-1] (c.z.hikari.pool.PoolBase:173) - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@24697d9c (No operations allowed after connection closed.)
-2022-07-06 12:03:20 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@24697d9c: (connection is dead)
-2022-07-06 12:03:20 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:136) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@24697d9c failed
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
-	at sun.reflect.GeneratedConstructorAccessor65.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
-	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1192)
-	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1187)
-	at com.mysql.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:5494)
-	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
-	at com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:129)
-	at com.zaxxer.hikari.pool.HikariPool.lambda$closeConnection$1(HikariPool.java:434)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:03:20 DEBUG [http-nio-9090-exec-1] (o.s.d.r.c.s.TransactionalRepositoryProxyPostProcessor$AbstractFallbackTransactionAttributeSource:355) - Adding transactional method 'findById' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
-2022-07-06 12:03:20 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@6ce70ff9
-2022-07-06 12:03:20 DEBUG [HikariPool-1 connection adder] (c.z.h.pool.HikariPool:404) - HikariPool-1 - After adding stats (total=10, active=1, idle=9, waiting=0)
-2022-07-06 12:03:21 DEBUG [http-nio-9090-exec-1] (o.s.d.r.c.s.TransactionalRepositoryProxyPostProcessor$AbstractFallbackTransactionAttributeSource:355) - Adding transactional method 'save' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
-2022-07-06 12:03:21 DEBUG [http-nio-9090-exec-1] (o.s.d.a.AuditingHandler:172) - Touched User [id=null, name=jawahar, username=jawahar1, email=srtjawahar10@gmail.com, password=$2a$10$L9OJ/rR.pf82bZSm9O.Nfub0a6lhzumphld60bbVgJeONfLesXnfy, orgname=null, vendorID=null, agentId=null, supplier_flag= , buyer_flag= , roles=[Role [id=1, name=ROLE_ADMIN]]] - Last modification at 2022-07-06T06:33:21.137 by Optional[sysadmin]
-2022-07-06 12:03:49 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-06 12:04:19 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-06 12:04:49 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-06 12:05:19 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-06 12:05:49 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-06 12:06:19 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-06 12:06:49 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-06 12:07:19 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-06 12:07:49 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-06 12:08:19 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-06 12:08:49 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-06 12:09:19 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-06 12:09:35 INFO  [http-nio-9090-exec-3] (c.f.t.s.JwtAuthenticationFilter:44) - Requested URL  : http://localhost:9090/TicketManager/api/auth/signin
-2022-07-06 12:09:40 INFO  [http-nio-9090-exec-5] (c.f.t.s.JwtAuthenticationFilter:44) - Requested URL  : http://localhost:9090/TicketManager/api/auth/signin
-2022-07-06 12:09:40 INFO  [http-nio-9090-exec-5] (c.f.t.m.d.c.AuthController:244) - ***************** User signin *********************
-srtjawahar10@gmail.com
-2022-07-06 12:09:45 WARN  [http-nio-9090-exec-5] (c.z.hikari.pool.PoolBase:173) - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@66a676fe (No operations allowed after connection closed.)
-2022-07-06 12:09:45 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@66a676fe: (connection is dead)
-2022-07-06 12:09:45 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:136) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@66a676fe failed
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
-	at sun.reflect.GeneratedConstructorAccessor65.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
-	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1192)
-	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1187)
-	at com.mysql.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:5494)
-	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
-	at com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:129)
-	at com.zaxxer.hikari.pool.HikariPool.lambda$closeConnection$1(HikariPool.java:434)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:09:45 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@266fe78c
-2022-07-06 12:09:45 DEBUG [HikariPool-1 connection adder] (c.z.h.pool.HikariPool:404) - HikariPool-1 - After adding stats (total=10, active=1, idle=9, waiting=0)
-2022-07-06 12:09:49 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
-2022-07-06 12:09:50 WARN  [http-nio-9090-exec-5] (c.z.hikari.pool.PoolBase:173) - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@12cd141b (No operations allowed after connection closed.)
-2022-07-06 12:09:50 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@12cd141b: (connection is dead)
-2022-07-06 12:09:50 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:136) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@12cd141b failed
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
-	at sun.reflect.GeneratedConstructorAccessor65.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
-	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1192)
-	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1187)
-	at com.mysql.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:5494)
-	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
-	at com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:129)
-	at com.zaxxer.hikari.pool.HikariPool.lambda$closeConnection$1(HikariPool.java:434)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:09:50 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@52440c20
-2022-07-06 12:09:50 DEBUG [HikariPool-1 connection adder] (c.z.h.pool.HikariPool:404) - HikariPool-1 - After adding stats (total=10, active=1, idle=9, waiting=0)
-2022-07-06 12:09:55 WARN  [http-nio-9090-exec-5] (c.z.hikari.pool.PoolBase:173) - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@2d91804e (No operations allowed after connection closed.)
-2022-07-06 12:09:55 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@2d91804e: (connection is dead)
-2022-07-06 12:09:55 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:136) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@2d91804e failed
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
-	at sun.reflect.GeneratedConstructorAccessor65.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
-	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1192)
-	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1187)
-	at com.mysql.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:5494)
-	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
-	at com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:129)
-	at com.zaxxer.hikari.pool.HikariPool.lambda$closeConnection$1(HikariPool.java:434)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:09:55 DEBUG [HikariPool-1 connection adder] (c.z.h.pool.HikariPool:480) - HikariPool-1 - Cannot acquire connection from data source
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Too many connections
-	at sun.reflect.GeneratedConstructorAccessor65.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
-	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
-	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
-	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
-	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
-	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
-	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
-	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
-	at sun.reflect.GeneratedConstructorAccessor63.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
-	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
-	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
-	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:699)
-	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:685)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:09:55 DEBUG [HikariPool-1 connection adder] (c.z.h.pool.HikariPool:480) - HikariPool-1 - Cannot acquire connection from data source
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Too many connections
-	at sun.reflect.GeneratedConstructorAccessor65.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
-	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
-	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
-	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
-	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
-	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
-	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
-	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
-	at sun.reflect.GeneratedConstructorAccessor63.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
-	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
-	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
-	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:699)
-	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:685)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:09:56 DEBUG [HikariPool-1 connection adder] (c.z.h.pool.HikariPool:480) - HikariPool-1 - Cannot acquire connection from data source
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Too many connections
-	at sun.reflect.GeneratedConstructorAccessor65.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
-	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
-	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
-	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
-	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
-	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
-	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
-	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
-	at sun.reflect.GeneratedConstructorAccessor63.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
-	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
-	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
-	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:699)
-	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:685)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:09:57 DEBUG [HikariPool-1 connection adder] (c.z.h.pool.HikariPool:480) - HikariPool-1 - Cannot acquire connection from data source
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Too many connections
-	at sun.reflect.GeneratedConstructorAccessor65.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
-	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
-	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
-	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
-	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
-	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
-	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
-	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
-	at sun.reflect.GeneratedConstructorAccessor63.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
-	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
-	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
-	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:699)
-	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:685)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:09:58 DEBUG [HikariPool-1 connection adder] (c.z.h.pool.HikariPool:480) - HikariPool-1 - Cannot acquire connection from data source
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Too many connections
-	at sun.reflect.GeneratedConstructorAccessor65.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
-	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
-	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
-	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
-	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
-	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
-	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
-	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
-	at sun.reflect.GeneratedConstructorAccessor63.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
-	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
-	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
-	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:699)
-	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:685)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:09:59 DEBUG [HikariPool-1 connection adder] (c.z.h.pool.HikariPool:480) - HikariPool-1 - Cannot acquire connection from data source
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Too many connections
-	at sun.reflect.GeneratedConstructorAccessor65.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
-	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
-	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
-	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
-	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
-	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
-	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
-	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
-	at sun.reflect.GeneratedConstructorAccessor63.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
-	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
-	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
-	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:699)
-	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:685)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:10:00 WARN  [http-nio-9090-exec-5] (c.z.hikari.pool.PoolBase:173) - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@47c5b423 (No operations allowed after connection closed.)
-2022-07-06 12:10:00 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@47c5b423: (connection is dead)
-2022-07-06 12:10:00 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:136) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@47c5b423 failed
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
-	at sun.reflect.GeneratedConstructorAccessor65.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
-	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1192)
-	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1187)
-	at com.mysql.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:5494)
-	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
-	at com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:129)
-	at com.zaxxer.hikari.pool.HikariPool.lambda$closeConnection$1(HikariPool.java:434)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:10:01 DEBUG [HikariPool-1 connection adder] (c.z.h.pool.HikariPool:480) - HikariPool-1 - Cannot acquire connection from data source
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Too many connections
-	at sun.reflect.GeneratedConstructorAccessor65.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
-	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
-	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
-	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
-	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
-	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
-	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
-	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
-	at sun.reflect.GeneratedConstructorAccessor63.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
-	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
-	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
-	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:699)
-	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:685)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:10:04 DEBUG [HikariPool-1 connection adder] (c.z.h.pool.HikariPool:480) - HikariPool-1 - Cannot acquire connection from data source
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Too many connections
-	at sun.reflect.GeneratedConstructorAccessor65.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
-	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
-	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
-	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
-	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
-	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
-	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
-	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
-	at sun.reflect.GeneratedConstructorAccessor63.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
-	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
-	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
-	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:699)
-	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:685)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:10:05 WARN  [http-nio-9090-exec-5] (c.z.hikari.pool.PoolBase:173) - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@377197b5 (No operations allowed after connection closed.)
-2022-07-06 12:10:05 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@377197b5: (connection is dead)
-2022-07-06 12:10:05 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:136) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@377197b5 failed
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
-	at sun.reflect.GeneratedConstructorAccessor65.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
-	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1192)
-	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1187)
-	at com.mysql.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:5494)
-	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
-	at com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:129)
-	at com.zaxxer.hikari.pool.HikariPool.lambda$closeConnection$1(HikariPool.java:434)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:10:09 DEBUG [HikariPool-1 connection adder] (c.z.h.pool.HikariPool:480) - HikariPool-1 - Cannot acquire connection from data source
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Too many connections
-	at sun.reflect.GeneratedConstructorAccessor65.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
-	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
-	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
-	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
-	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
-	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
-	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
-	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
-	at sun.reflect.GeneratedConstructorAccessor63.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
-	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
-	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
-	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:699)
-	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:685)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:10:10 WARN  [http-nio-9090-exec-5] (c.z.hikari.pool.PoolBase:173) - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@290b0c11 (No operations allowed after connection closed.)
-2022-07-06 12:10:10 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@290b0c11: (connection is dead)
-2022-07-06 12:10:10 DEBUG [http-nio-9090-exec-5] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Timeout failure stats (total=6, active=0, idle=6, waiting=0)
-2022-07-06 12:10:10 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:136) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@290b0c11 failed
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
-	at sun.reflect.GeneratedConstructorAccessor65.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
-	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1192)
-	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1187)
-	at com.mysql.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:5494)
-	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
-	at com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:129)
-	at com.zaxxer.hikari.pool.HikariPool.lambda$closeConnection$1(HikariPool.java:434)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:10:10 ERROR [http-nio-9090-exec-5] (c.f.t.m.d.c.AuthController:210) - ***************** Unable to find admin ********************* org.springframework.dao.DataAccessResourceFailureException: Unable to acquire JDBC Connection; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection
-2022-07-06 12:10:15 WARN  [http-nio-9090-exec-5] (c.z.hikari.pool.PoolBase:173) - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@4d84eb6a (No operations allowed after connection closed.)
-2022-07-06 12:10:15 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@4d84eb6a: (connection is dead)
-2022-07-06 12:10:15 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:136) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@4d84eb6a failed
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
-	at sun.reflect.GeneratedConstructorAccessor65.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
-	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1192)
-	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1187)
-	at com.mysql.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:5494)
-	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
-	at com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:129)
-	at com.zaxxer.hikari.pool.HikariPool.lambda$closeConnection$1(HikariPool.java:434)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:10:15 DEBUG [HikariPool-1 connection adder] (c.z.h.pool.HikariPool:480) - HikariPool-1 - Cannot acquire connection from data source
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Too many connections
-	at sun.reflect.GeneratedConstructorAccessor65.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
-	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
-	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
-	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
-	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
-	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
-	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
-	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
-	at sun.reflect.GeneratedConstructorAccessor63.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
-	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
-	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
-	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:699)
-	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:685)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:10:19 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=5, active=1, idle=4, waiting=0)
-2022-07-06 12:10:20 WARN  [http-nio-9090-exec-5] (c.z.hikari.pool.PoolBase:173) - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@39c48554 (No operations allowed after connection closed.)
-2022-07-06 12:10:20 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@39c48554: (connection is dead)
-2022-07-06 12:10:20 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:136) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@39c48554 failed
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
-	at sun.reflect.GeneratedConstructorAccessor65.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
-	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1192)
-	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1187)
-	at com.mysql.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:5494)
-	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
-	at com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:129)
-	at com.zaxxer.hikari.pool.HikariPool.lambda$closeConnection$1(HikariPool.java:434)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:10:25 DEBUG [HikariPool-1 connection adder] (c.z.h.pool.HikariPool:480) - HikariPool-1 - Cannot acquire connection from data source
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Too many connections
-	at sun.reflect.GeneratedConstructorAccessor65.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
-	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
-	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
-	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
-	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
-	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
-	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
-	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
-	at sun.reflect.GeneratedConstructorAccessor63.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
-	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
-	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
-	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:699)
-	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:685)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:10:25 WARN  [http-nio-9090-exec-5] (c.z.hikari.pool.PoolBase:173) - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@99e3961 (No operations allowed after connection closed.)
-2022-07-06 12:10:25 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@99e3961: (connection is dead)
-2022-07-06 12:10:25 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:136) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@99e3961 failed
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
-	at sun.reflect.GeneratedConstructorAccessor65.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
-	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1192)
-	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1187)
-	at com.mysql.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:5494)
-	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
-	at com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:129)
-	at com.zaxxer.hikari.pool.HikariPool.lambda$closeConnection$1(HikariPool.java:434)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:10:30 WARN  [http-nio-9090-exec-5] (c.z.hikari.pool.PoolBase:173) - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@6ce70ff9 (No operations allowed after connection closed.)
-2022-07-06 12:10:30 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@6ce70ff9: (connection is dead)
-2022-07-06 12:10:30 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:136) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@6ce70ff9 failed
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
-	at sun.reflect.GeneratedConstructorAccessor65.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
-	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1192)
-	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1187)
-	at com.mysql.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:5494)
-	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
-	at com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:129)
-	at com.zaxxer.hikari.pool.HikariPool.lambda$closeConnection$1(HikariPool.java:434)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:10:33 INFO  [RMI TCP Connection(22)-127.0.0.1] (c.z.h.HikariDataSource:381) - HikariPool-1 - Shutdown initiated...
-2022-07-06 12:10:33 DEBUG [RMI TCP Connection(22)-127.0.0.1] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Before shutdown stats (total=2, active=0, idle=2, waiting=0)
-2022-07-06 12:10:33 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@266fe78c: (connection evicted)
-2022-07-06 12:10:33 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@52440c20: (connection evicted)
-2022-07-06 12:10:35 DEBUG [RMI TCP Connection(22)-127.0.0.1] (c.z.h.pool.HikariPool:404) - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
-2022-07-06 12:10:35 INFO  [RMI TCP Connection(22)-127.0.0.1] (c.z.h.HikariDataSource:383) - HikariPool-1 - Shutdown completed.
-2022-07-06 12:10:45 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:121) - Scanning for repositories in packages com.foucsr.ticketmanager.mysql.database.repository.
-2022-07-06 12:10:45 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: userRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.UserRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-06 12:10:45 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: screensRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.ScreensRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-06 12:10:45 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: groupAgentRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.GroupAgentRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-06 12:10:45 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: roleRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.RoleRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-06 12:10:45 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: unassignedTicketTimeRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.UnassignedTicketTimeRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-06 12:10:45 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: emailDetailsRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.EmailDetailsRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-06 12:10:45 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: businessFunctionRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.BusinessFunctionRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-06 12:10:45 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:153) - Finished repository scanning.
-2022-07-06 12:10:45 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:121) - Scanning for repositories in packages com.foucsr.ticketmanager.mysql.database.repository.
-2022-07-06 12:10:45 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: businessFunctionRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.BusinessFunctionRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-06 12:10:45 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: groupAgentRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.GroupAgentRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-06 12:10:45 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: roleRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.RoleRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-06 12:10:45 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: emailDetailsRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.EmailDetailsRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-06 12:10:45 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: screensRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.ScreensRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-06 12:10:45 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: userRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.UserRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-06 12:10:45 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: unassignedTicketTimeRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.UnassignedTicketTimeRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-06 12:10:45 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:153) - Finished repository scanning.
-2022-07-06 12:10:45 INFO  [restartedMain] (o.a.j.l.DirectJDKLog:180) - Initializing ProtocolHandler ["http-nio-9090"]
-2022-07-06 12:10:45 INFO  [restartedMain] (o.a.j.l.DirectJDKLog:180) - Starting service [Tomcat]
-2022-07-06 12:10:45 INFO  [restartedMain] (o.a.j.l.DirectJDKLog:180) - Starting Servlet Engine: Apache Tomcat/8.5.34
-2022-07-06 12:10:45 INFO  [localhost-startStop-1] (o.a.j.l.DirectJDKLog:180) - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_321\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/Phalgune/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208/jre/bin/server;C:/Users/Phalgune/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;D:\FocusR\Maven\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;D:\FocusR\Mysql\mysql-8.0.29-winx64-debug-test\mysql-8.0.29-winx64\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk1.8.0_321\bin;C:\Program Files\Java\jdk-17.0.3.1\bin;D:\FocusR\Git\Git\bin;D:\FocusR\Maven\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\Users\Jawahar\AppData\Local\Microsoft\WindowsApps;D:\FocusR\Git\Git\cmd;C:\Users\Jawahar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Jawahar\AppData\Roaming\npm;C:\Users\Jawahar\Downloads\java-2022-03-20220502T091501Z-001\java-2022-03\eclipse;;.]
-2022-07-06 12:10:45 INFO  [localhost-startStop-1] (o.a.j.l.DirectJDKLog:180) - Initializing Spring embedded WebApplicationContext
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:495) - Driver class com.mysql.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+2022-07-25 18:10:38 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:121) - Scanning for repositories in packages com.foucsr.ticketmanager.mysql.database.repository.
+2022-07-25 18:10:38 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: businessFunctionRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.BusinessFunctionRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2022-07-25 18:10:38 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: emailDetailsRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.EmailDetailsRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2022-07-25 18:10:38 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: groupAgentRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.GroupAgentRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2022-07-25 18:10:38 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: screensRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.ScreensRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2022-07-25 18:10:38 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: unassignedTicketTimeRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.UnassignedTicketTimeRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2022-07-25 18:10:38 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: roleRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.RoleRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2022-07-25 18:10:38 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: userRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.UserRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2022-07-25 18:10:38 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:153) - Finished repository scanning.
+2022-07-25 18:10:38 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:121) - Scanning for repositories in packages com.foucsr.ticketmanager.mysql.database.repository.
+2022-07-25 18:10:38 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: userRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.UserRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2022-07-25 18:10:38 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: groupAgentRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.GroupAgentRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2022-07-25 18:10:38 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: emailDetailsRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.EmailDetailsRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2022-07-25 18:10:38 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: roleRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.RoleRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2022-07-25 18:10:38 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: businessFunctionRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.BusinessFunctionRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2022-07-25 18:10:38 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: screensRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.ScreensRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2022-07-25 18:10:38 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: unassignedTicketTimeRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.UnassignedTicketTimeRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2022-07-25 18:10:38 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:153) - Finished repository scanning.
+2022-07-25 18:10:39 INFO  [restartedMain] (o.a.j.l.DirectJDKLog:180) - Initializing ProtocolHandler ["http-nio-9090"]
+2022-07-25 18:10:39 INFO  [restartedMain] (o.a.j.l.DirectJDKLog:180) - Starting service [Tomcat]
+2022-07-25 18:10:39 INFO  [restartedMain] (o.a.j.l.DirectJDKLog:180) - Starting Servlet Engine: Apache Tomcat/8.5.34
+2022-07-25 18:10:39 INFO  [localhost-startStop-1] (o.a.j.l.DirectJDKLog:180) - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_321\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/Phalgune/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208/jre/bin/server;C:/Users/Phalgune/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;D:\FocusR\Maven\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;D:\FocusR\Mysql\mysql-8.0.29-winx64-debug-test\mysql-8.0.29-winx64\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk1.8.0_321\bin;C:\Program Files\Java\jdk-17.0.3.1\bin;D:\FocusR\Git\Git\bin;D:\FocusR\Maven\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\Users\Jawahar\AppData\Local\Microsoft\WindowsApps;D:\FocusR\Git\Git\cmd;C:\Users\Jawahar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Jawahar\AppData\Roaming\npm;C:\Users\Jawahar\Downloads\java-2022-03-20220502T091501Z-001\java-2022-03\eclipse;;.]
+2022-07-25 18:10:39 INFO  [localhost-startStop-1] (o.a.j.l.DirectJDKLog:180) - Initializing Spring embedded WebApplicationContext
+2022-07-25 18:10:39 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:495) - Driver class com.mysql.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
   context: TicketManager
   delegate: true
 ----------> Parent Classloader:
 org.springframework.boot.devtools.restart.classloader.RestartClassLoader@778b57dc
 
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1119) - HikariPool-1 - configuration:
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - allowPoolSuspension.............false
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - autoCommit......................true
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - catalog.........................none
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - connectionInitSql...............none
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - connectionTestQuery.............none
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - connectionTimeout...............30000
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - dataSource......................none
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - dataSourceClassName.............none
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - dataSourceJNDI..................none
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - dataSourceProperties............{password=<masked>}
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - driverClassName................."com.mysql.jdbc.Driver"
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - healthCheckProperties...........{}
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - healthCheckRegistry.............none
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - idleTimeout.....................600000
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - initializationFailFast..........true
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - initializationFailTimeout.......1
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - isolateInternalQueries..........false
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - jdbc4ConnectionTest.............false
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - jdbcUrl.........................jdbc:mysql://122.165.191.124:3306/ticket_manager_dev?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - leakDetectionThreshold..........0
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - maxLifetime.....................1800000
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - maximumPoolSize.................10
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - metricRegistry..................none
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - metricsTrackerFactory...........none
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - minimumIdle.....................10
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - password........................<masked>
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - poolName........................"HikariPool-1"
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - readOnly........................false
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - registerMbeans..................false
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - scheduledExecutor...............none
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - scheduledExecutorService........internal
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - schema..........................none
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - threadFactory...................internal
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - transactionIsolation............default
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - username........................"demo"
-2022-07-06 12:10:46 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - validationTimeout...............5000
-2022-07-06 12:10:46 INFO  [localhost-startStop-1] (c.z.h.HikariDataSource:110) - HikariPool-1 - Starting...
-2022-07-06 12:10:47 DEBUG [localhost-startStop-1] (c.z.h.pool.HikariPool:538) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@3b87344c
-2022-07-06 12:10:47 INFO  [localhost-startStop-1] (c.z.h.HikariDataSource:123) - HikariPool-1 - Start completed.
-2022-07-06 12:10:47 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
-2022-07-06 12:10:47 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@426a93b2
-2022-07-06 12:10:47 DEBUG [HikariPool-1 connection adder] (c.z.hikari.pool.PoolBase:379) - HikariPool-1 - Failed to create/setup connection: Too many connections
-2022-07-06 12:10:47 DEBUG [HikariPool-1 connection adder] (c.z.h.pool.HikariPool:480) - HikariPool-1 - Cannot acquire connection from data source
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Too many connections
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
-	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
-	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
-	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
-	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
-	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
-	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
-	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
-	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
-	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
-	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:699)
-	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:685)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:10:48 DEBUG [HikariPool-1 connection adder] (c.z.h.pool.HikariPool:480) - HikariPool-1 - Cannot acquire connection from data source
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Too many connections
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
-	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
-	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
-	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
-	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
-	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
-	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
-	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
-	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
-	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
-	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:699)
-	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:685)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:10:48 DEBUG [HikariPool-1 connection adder] (c.z.h.pool.HikariPool:480) - HikariPool-1 - Cannot acquire connection from data source
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Too many connections
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
-	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
-	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
-	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
-	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
-	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
-	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
-	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
-	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
-	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
-	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:699)
-	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:685)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:10:48 DEBUG [localhost-startStop-1] (o.s.d.j.r.c.JpaMetamodelMappingContextFactoryBean:77) - Initializing JpaMetamodelMappingContext…
-2022-07-06 12:10:48 DEBUG [localhost-startStop-1] (o.s.d.j.r.c.JpaMetamodelMappingContextFactoryBean:84) - Finished initializing JpaMetamodelMappingContext!
-2022-07-06 12:10:49 DEBUG [localhost-startStop-1] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.ticketmanager.mysql.database.repository.UserRepository…
-2022-07-06 12:10:49 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByUsername
-2022-07-06 12:10:49 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.findByUsername
-2022-07-06 12:10:49 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.findByUsername
-2022-07-06 12:10:49 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByEmail
-2022-07-06 12:10:49 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.findByEmail
-2022-07-06 12:10:49 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.findByEmail
-2022-07-06 12:10:49 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByResetToken
-2022-07-06 12:10:49 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.findByResetToken
-2022-07-06 12:10:49 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.findByResetToken
-2022-07-06 12:10:49 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByFirstNameAndLastName
-2022-07-06 12:10:49 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findUser
-2022-07-06 12:10:49 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByIdIn
-2022-07-06 12:10:49 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.findByIdIn
-2022-07-06 12:10:49 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.findByIdIn
-2022-07-06 12:10:49 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByVendorId
-2022-07-06 12:10:49 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByUsernameOrEmail
-2022-07-06 12:10:49 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.findByUsernameOrEmail
-2022-07-06 12:10:49 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.findByUsernameOrEmail
-2022-07-06 12:10:49 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findListOfUsers
-2022-07-06 12:10:49 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByAgentId
-2022-07-06 12:10:49 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method existsByEmail
-2022-07-06 12:10:49 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.existsByEmail
-2022-07-06 12:10:49 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.existsByEmail
-2022-07-06 12:10:49 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method existsByUsername
-2022-07-06 12:10:49 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.existsByUsername
-2022-07-06 12:10:49 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.existsByUsername
-2022-07-06 12:10:49 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findUserByIdToActiveOrInactive
-2022-07-06 12:10:49 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findFirstAdmin
-2022-07-06 12:10:49 DEBUG [localhost-startStop-1] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.ticketmanager.mysql.database.repository.UserRepository.
-2022-07-06 12:10:49 DEBUG [localhost-startStop-1] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.ticketmanager.mysql.database.repository.EmailDetailsRepository…
-2022-07-06 12:10:49 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findOneEmailDetails
-2022-07-06 12:10:49 DEBUG [localhost-startStop-1] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.ticketmanager.mysql.database.repository.EmailDetailsRepository.
-2022-07-06 12:10:49 DEBUG [HikariPool-1 connection adder] (c.z.h.pool.HikariPool:480) - HikariPool-1 - Cannot acquire connection from data source
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Too many connections
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
-	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
-	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
-	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
-	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
-	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
-	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
-	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
-	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
-	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
-	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:699)
-	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:685)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:10:49 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.ticketmanager.mysql.database.repository.RoleRepository…
-2022-07-06 12:10:49 DEBUG [restartedMain] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByName
-2022-07-06 12:10:49 DEBUG [restartedMain] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query Role.findByName
-2022-07-06 12:10:49 DEBUG [restartedMain] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query Role.findByName
-2022-07-06 12:10:49 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.ticketmanager.mysql.database.repository.RoleRepository.
-2022-07-06 12:10:49 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.ticketmanager.mysql.database.repository.GroupAgentRepository…
-2022-07-06 12:10:49 DEBUG [restartedMain] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findGroupAgentsByName
-2022-07-06 12:10:49 DEBUG [restartedMain] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findGroupAgentsById
-2022-07-06 12:10:49 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.ticketmanager.mysql.database.repository.GroupAgentRepository.
-2022-07-06 12:10:49 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.ticketmanager.mysql.database.repository.BusinessFunctionRepository…
-2022-07-06 12:10:49 DEBUG [restartedMain] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findBusinessFunctionsById
-2022-07-06 12:10:49 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.ticketmanager.mysql.database.repository.BusinessFunctionRepository.
-2022-07-06 12:10:49 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.ticketmanager.mysql.database.repository.ScreensRepository…
-2022-07-06 12:10:49 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.ticketmanager.mysql.database.repository.ScreensRepository.
-2022-07-06 12:10:49 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.ticketmanager.mysql.database.repository.UnassignedTicketTimeRepository…
-2022-07-06 12:10:49 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.ticketmanager.mysql.database.repository.UnassignedTicketTimeRepository.
-2022-07-06 12:10:50 INFO  [restartedMain] (o.a.j.l.DirectJDKLog:180) - Starting ProtocolHandler ["http-nio-9090"]
-2022-07-06 12:10:50 INFO  [restartedMain] (o.a.j.l.DirectJDKLog:180) - Using a shared selector for servlet write/read
-2022-07-06 12:10:50 DEBUG [HikariPool-1 connection adder] (c.z.h.pool.HikariPool:480) - HikariPool-1 - Cannot acquire connection from data source
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Too many connections
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
-	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
-	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
-	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
-	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
-	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
-	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
-	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
-	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
-	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
-	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:699)
-	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:685)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:10:51 DEBUG [HikariPool-1 connection adder] (c.z.h.pool.HikariPool:480) - HikariPool-1 - Cannot acquire connection from data source
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Too many connections
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
-	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
-	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
-	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
-	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
-	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
-	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
-	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
-	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
-	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
-	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:699)
-	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:685)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:10:53 DEBUG [HikariPool-1 connection adder] (c.z.h.pool.HikariPool:480) - HikariPool-1 - Cannot acquire connection from data source
-com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Too many connections
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.Util.getInstance(Util.java:408)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
-	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
-	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
-	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
-	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
-	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
-	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
-	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
-	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
-	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
-	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
-	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:699)
-	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:685)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-2022-07-06 12:10:56 INFO  [RMI TCP Connection(2)-127.0.0.1] (c.z.h.HikariDataSource:381) - HikariPool-1 - Shutdown initiated...
-2022-07-06 12:10:56 DEBUG [RMI TCP Connection(2)-127.0.0.1] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Before shutdown stats (total=2, active=0, idle=2, waiting=0)
-2022-07-06 12:10:56 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@3b87344c: (connection evicted)
-2022-07-06 12:10:56 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@426a93b2: (connection evicted)
-2022-07-06 12:10:56 DEBUG [RMI TCP Connection(2)-127.0.0.1] (c.z.h.pool.HikariPool:404) - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
-2022-07-06 12:10:56 INFO  [RMI TCP Connection(2)-127.0.0.1] (c.z.h.HikariDataSource:383) - HikariPool-1 - Shutdown completed.
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1119) - HikariPool-1 - configuration:
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - allowPoolSuspension.............false
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - autoCommit......................true
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - catalog.........................none
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - connectionInitSql...............none
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - connectionTestQuery.............none
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - connectionTimeout...............30000
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - dataSource......................none
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - dataSourceClassName.............none
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - dataSourceJNDI..................none
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - dataSourceProperties............{password=<masked>}
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - driverClassName................."com.mysql.jdbc.Driver"
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - healthCheckProperties...........{}
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - healthCheckRegistry.............none
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - idleTimeout.....................600000
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - initializationFailFast..........true
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - initializationFailTimeout.......1
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - isolateInternalQueries..........false
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - jdbc4ConnectionTest.............false
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - jdbcUrl.........................jdbc:mysql://122.165.191.124:3306/ticket_manager_dev?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - leakDetectionThreshold..........0
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - maxLifetime.....................1800000
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - maximumPoolSize.................10
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - metricRegistry..................none
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - metricsTrackerFactory...........none
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - minimumIdle.....................10
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - password........................<masked>
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - poolName........................"HikariPool-1"
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - readOnly........................false
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - registerMbeans..................false
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - scheduledExecutor...............none
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - scheduledExecutorService........internal
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - schema..........................none
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - threadFactory...................internal
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - transactionIsolation............default
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - username........................"demo"
+2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - validationTimeout...............5000
+2022-07-25 18:10:40 INFO  [localhost-startStop-1] (c.z.h.HikariDataSource:110) - HikariPool-1 - Starting...
+2022-07-25 18:10:41 DEBUG [localhost-startStop-1] (c.z.h.pool.HikariPool:538) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@73243246
+2022-07-25 18:10:41 INFO  [localhost-startStop-1] (c.z.h.HikariDataSource:123) - HikariPool-1 - Start completed.
+2022-07-25 18:10:41 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2022-07-25 18:10:42 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@42cd198b
+2022-07-25 18:10:43 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@1ca96ef5
+2022-07-25 18:10:43 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@7ada41c
+2022-07-25 18:10:44 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@5421f881
+2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.c.JpaMetamodelMappingContextFactoryBean:77) - Initializing JpaMetamodelMappingContext…
+2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.c.JpaMetamodelMappingContextFactoryBean:84) - Finished initializing JpaMetamodelMappingContext!
+2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.ticketmanager.mysql.database.repository.UserRepository…
+2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByUsername
+2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.findByUsername
+2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.findByUsername
+2022-07-25 18:10:45 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@772e8d9
+2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByEmail
+2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.findByEmail
+2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.findByEmail
+2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByResetToken
+2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.findByResetToken
+2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.findByResetToken
+2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByFirstNameAndLastName
+2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByVendorId
+2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByIdIn
+2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.findByIdIn
+2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.findByIdIn
+2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findUser
+2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByUsernameOrEmail
+2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.findByUsernameOrEmail
+2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.findByUsernameOrEmail
+2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByAgentId
+2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findListOfUsers
+2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method existsByEmail
+2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.existsByEmail
+2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.existsByEmail
+2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method existsByUsername
+2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.existsByUsername
+2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.existsByUsername
+2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findUserByIdToActiveOrInactive
+2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findFirstAdmin
+2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.ticketmanager.mysql.database.repository.UserRepository.
+2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.ticketmanager.mysql.database.repository.EmailDetailsRepository…
+2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findOneEmailDetails
+2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.ticketmanager.mysql.database.repository.EmailDetailsRepository.
+2022-07-25 18:10:45 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.ticketmanager.mysql.database.repository.RoleRepository…
+2022-07-25 18:10:45 DEBUG [restartedMain] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByName
+2022-07-25 18:10:45 DEBUG [restartedMain] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query Role.findByName
+2022-07-25 18:10:45 DEBUG [restartedMain] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query Role.findByName
+2022-07-25 18:10:45 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.ticketmanager.mysql.database.repository.RoleRepository.
+2022-07-25 18:10:45 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.ticketmanager.mysql.database.repository.GroupAgentRepository…
+2022-07-25 18:10:45 DEBUG [restartedMain] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findGroupAgentsByName
+2022-07-25 18:10:45 DEBUG [restartedMain] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findGroupAgentsById
+2022-07-25 18:10:45 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.ticketmanager.mysql.database.repository.GroupAgentRepository.
+2022-07-25 18:10:45 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.ticketmanager.mysql.database.repository.BusinessFunctionRepository…
+2022-07-25 18:10:45 DEBUG [restartedMain] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findBusinessFunctionsById
+2022-07-25 18:10:45 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.ticketmanager.mysql.database.repository.BusinessFunctionRepository.
+2022-07-25 18:10:45 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.ticketmanager.mysql.database.repository.ScreensRepository…
+2022-07-25 18:10:45 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.ticketmanager.mysql.database.repository.ScreensRepository.
+2022-07-25 18:10:45 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.ticketmanager.mysql.database.repository.UnassignedTicketTimeRepository…
+2022-07-25 18:10:45 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.ticketmanager.mysql.database.repository.UnassignedTicketTimeRepository.
+2022-07-25 18:10:45 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@727fe6f8
+2022-07-25 18:10:46 INFO  [restartedMain] (o.a.j.l.DirectJDKLog:180) - Starting ProtocolHandler ["http-nio-9090"]
+2022-07-25 18:10:46 INFO  [restartedMain] (o.a.j.l.DirectJDKLog:180) - Using a shared selector for servlet write/read
+2022-07-25 18:10:46 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@7ebc54e7
+2022-07-25 18:10:47 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@10aa4d7b
+2022-07-25 18:10:48 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@7a60fa87
+2022-07-25 18:10:48 DEBUG [HikariPool-1 connection adder] (c.z.h.pool.HikariPool:404) - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2022-07-25 18:11:11 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-07-25 18:11:41 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-07-25 18:11:54 INFO  [http-nio-9090-exec-4] (o.a.j.l.DirectJDKLog:180) - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2022-07-25 18:11:54 INFO  [http-nio-9090-exec-4] (c.f.t.s.JwtAuthenticationFilter:44) - Requested URL  : http://localhost:9090/TicketManager/api/auth/signin
+2022-07-25 18:11:55 ERROR [http-nio-9090-exec-4] (c.f.t.s.JwtTokenProvider:90) - Expired JWT token
+2022-07-25 18:11:55 INFO  [http-nio-9090-exec-4] (c.f.t.m.d.c.AuthController:244) - ***************** User signin *********************
+sysadmin@gmail.com
+2022-07-25 18:12:11 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-07-25 18:12:41 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-07-25 18:13:04 INFO  [Thread-7] (c.z.h.HikariDataSource:381) - HikariPool-1 - Shutdown initiated...
+2022-07-25 18:13:04 DEBUG [Thread-7] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2022-07-25 18:13:04 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@73243246: (connection evicted)
+2022-07-25 18:13:04 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@42cd198b: (connection evicted)
+2022-07-25 18:13:04 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@1ca96ef5: (connection evicted)
+2022-07-25 18:13:04 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@7ada41c: (connection evicted)
+2022-07-25 18:13:04 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@5421f881: (connection evicted)
+2022-07-25 18:13:04 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@772e8d9: (connection evicted)
+2022-07-25 18:13:04 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@727fe6f8: (connection evicted)
+2022-07-25 18:13:04 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@7ebc54e7: (connection evicted)
+2022-07-25 18:13:04 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@10aa4d7b: (connection evicted)
+2022-07-25 18:13:04 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@7a60fa87: (connection evicted)
+2022-07-25 18:13:04 DEBUG [Thread-7] (c.z.h.pool.HikariPool:404) - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2022-07-25 18:13:04 INFO  [Thread-7] (c.z.h.HikariDataSource:383) - HikariPool-1 - Shutdown completed.
+2022-07-25 12:43:05 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:121) - Scanning for repositories in packages com.foucsr.ticketmanager.mysql.database.repository.
+2022-07-25 12:43:05 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: groupAgentRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.GroupAgentRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2022-07-25 12:43:05 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: roleRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.RoleRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2022-07-25 12:43:05 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: unassignedTicketTimeRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.UnassignedTicketTimeRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2022-07-25 12:43:05 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: screensRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.ScreensRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2022-07-25 12:43:05 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: userRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.UserRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2022-07-25 12:43:05 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: emailDetailsRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.EmailDetailsRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2022-07-25 12:43:05 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: businessFunctionRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.BusinessFunctionRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2022-07-25 12:43:05 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:153) - Finished repository scanning.
+2022-07-25 12:43:05 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:121) - Scanning for repositories in packages com.foucsr.ticketmanager.mysql.database.repository.
+2022-07-25 12:43:05 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: userRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.UserRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2022-07-25 12:43:05 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: groupAgentRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.GroupAgentRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2022-07-25 12:43:05 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: emailDetailsRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.EmailDetailsRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2022-07-25 12:43:05 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: roleRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.RoleRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2022-07-25 12:43:05 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: unassignedTicketTimeRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.UnassignedTicketTimeRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2022-07-25 12:43:05 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: screensRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.ScreensRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2022-07-25 12:43:05 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: businessFunctionRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.BusinessFunctionRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2022-07-25 12:43:05 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:153) - Finished repository scanning.
+2022-07-25 12:43:05 INFO  [restartedMain] (o.a.j.l.DirectJDKLog:180) - Initializing ProtocolHandler ["http-nio-9090"]
+2022-07-25 12:43:05 INFO  [restartedMain] (o.a.j.l.DirectJDKLog:180) - Starting service [Tomcat]
+2022-07-25 12:43:05 INFO  [restartedMain] (o.a.j.l.DirectJDKLog:180) - Starting Servlet Engine: Apache Tomcat/8.5.34
+2022-07-25 12:43:05 INFO  [localhost-startStop-1] (o.a.j.l.DirectJDKLog:180) - Initializing Spring embedded WebApplicationContext

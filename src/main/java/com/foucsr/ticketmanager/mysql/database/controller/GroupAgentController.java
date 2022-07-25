@@ -124,4 +124,10 @@ public class GroupAgentController
 		return ResponseEntity.status(HttpStatus.OK).body(groupAgentService.getUnAssignedTicket());
 	}
 	
+	@GetMapping("test")
+	public String testing()
+	{
+		return "Testing App";
+	}
+	
 }
