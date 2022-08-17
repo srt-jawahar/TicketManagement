@@ -32,7 +32,6 @@ public class GroupAgents
 	private String groupAgentDescription;
 	
 	@Column(name="BUSINESS_FUNCTION")
-	@NotBlank
 	private String businessFunction;
 	
 	@Column(name="TICKET_ASSIGNS")

@@ -1,326 +1,45 @@
-2022-07-25 18:10:38 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:121) - Scanning for repositories in packages com.foucsr.ticketmanager.mysql.database.repository.
-2022-07-25 18:10:38 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: businessFunctionRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.BusinessFunctionRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 18:10:38 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: emailDetailsRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.EmailDetailsRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 18:10:38 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: groupAgentRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.GroupAgentRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 18:10:38 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: screensRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.ScreensRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 18:10:38 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: unassignedTicketTimeRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.UnassignedTicketTimeRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 18:10:38 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: roleRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.RoleRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 18:10:38 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: userRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.UserRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 18:10:38 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:153) - Finished repository scanning.
-2022-07-25 18:10:38 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:121) - Scanning for repositories in packages com.foucsr.ticketmanager.mysql.database.repository.
-2022-07-25 18:10:38 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: userRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.UserRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 18:10:38 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: groupAgentRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.GroupAgentRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 18:10:38 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: emailDetailsRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.EmailDetailsRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 18:10:38 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: roleRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.RoleRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 18:10:38 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: businessFunctionRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.BusinessFunctionRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 18:10:38 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: screensRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.ScreensRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 18:10:38 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: unassignedTicketTimeRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.UnassignedTicketTimeRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 18:10:38 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:153) - Finished repository scanning.
-2022-07-25 18:10:39 INFO  [restartedMain] (o.a.j.l.DirectJDKLog:180) - Initializing ProtocolHandler ["http-nio-9090"]
-2022-07-25 18:10:39 INFO  [restartedMain] (o.a.j.l.DirectJDKLog:180) - Starting service [Tomcat]
-2022-07-25 18:10:39 INFO  [restartedMain] (o.a.j.l.DirectJDKLog:180) - Starting Servlet Engine: Apache Tomcat/8.5.34
-2022-07-25 18:10:39 INFO  [localhost-startStop-1] (o.a.j.l.DirectJDKLog:180) - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_321\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/Phalgune/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208/jre/bin/server;C:/Users/Phalgune/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;D:\FocusR\Maven\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;D:\FocusR\Mysql\mysql-8.0.29-winx64-debug-test\mysql-8.0.29-winx64\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk1.8.0_321\bin;C:\Program Files\Java\jdk-17.0.3.1\bin;D:\FocusR\Git\Git\bin;D:\FocusR\Maven\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\Users\Jawahar\AppData\Local\Microsoft\WindowsApps;D:\FocusR\Git\Git\cmd;C:\Users\Jawahar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Jawahar\AppData\Roaming\npm;C:\Users\Jawahar\Downloads\java-2022-03-20220502T091501Z-001\java-2022-03\eclipse;;.]
-2022-07-25 18:10:39 INFO  [localhost-startStop-1] (o.a.j.l.DirectJDKLog:180) - Initializing Spring embedded WebApplicationContext
-2022-07-25 18:10:39 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:495) - Driver class com.mysql.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
-  context: TicketManager
-  delegate: true
-----------> Parent Classloader:
-org.springframework.boot.devtools.restart.classloader.RestartClassLoader@778b57dc
-
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1119) - HikariPool-1 - configuration:
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - allowPoolSuspension.............false
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - autoCommit......................true
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - catalog.........................none
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - connectionInitSql...............none
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - connectionTestQuery.............none
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - connectionTimeout...............30000
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - dataSource......................none
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - dataSourceClassName.............none
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - dataSourceJNDI..................none
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - dataSourceProperties............{password=<masked>}
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - driverClassName................."com.mysql.jdbc.Driver"
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - healthCheckProperties...........{}
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - healthCheckRegistry.............none
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - idleTimeout.....................600000
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - initializationFailFast..........true
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - initializationFailTimeout.......1
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - isolateInternalQueries..........false
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - jdbc4ConnectionTest.............false
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - jdbcUrl.........................jdbc:mysql://122.165.191.124:3306/ticket_manager_dev?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - leakDetectionThreshold..........0
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - maxLifetime.....................1800000
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - maximumPoolSize.................10
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - metricRegistry..................none
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - metricsTrackerFactory...........none
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - minimumIdle.....................10
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - password........................<masked>
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - poolName........................"HikariPool-1"
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - readOnly........................false
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - registerMbeans..................false
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - scheduledExecutor...............none
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - scheduledExecutorService........internal
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - schema..........................none
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - threadFactory...................internal
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - transactionIsolation............default
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - username........................"demo"
-2022-07-25 18:10:40 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - validationTimeout...............5000
-2022-07-25 18:10:40 INFO  [localhost-startStop-1] (c.z.h.HikariDataSource:110) - HikariPool-1 - Starting...
-2022-07-25 18:10:41 DEBUG [localhost-startStop-1] (c.z.h.pool.HikariPool:538) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@73243246
-2022-07-25 18:10:41 INFO  [localhost-startStop-1] (c.z.h.HikariDataSource:123) - HikariPool-1 - Start completed.
-2022-07-25 18:10:41 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
-2022-07-25 18:10:42 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@42cd198b
-2022-07-25 18:10:43 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@1ca96ef5
-2022-07-25 18:10:43 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@7ada41c
-2022-07-25 18:10:44 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@5421f881
-2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.c.JpaMetamodelMappingContextFactoryBean:77) - Initializing JpaMetamodelMappingContext…
-2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.c.JpaMetamodelMappingContextFactoryBean:84) - Finished initializing JpaMetamodelMappingContext!
-2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.ticketmanager.mysql.database.repository.UserRepository…
-2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByUsername
-2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.findByUsername
-2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.findByUsername
-2022-07-25 18:10:45 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@772e8d9
-2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByEmail
-2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.findByEmail
-2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.findByEmail
-2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByResetToken
-2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.findByResetToken
-2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.findByResetToken
-2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByFirstNameAndLastName
-2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByVendorId
-2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByIdIn
-2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.findByIdIn
-2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.findByIdIn
-2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findUser
-2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByUsernameOrEmail
-2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.findByUsernameOrEmail
-2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.findByUsernameOrEmail
-2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByAgentId
-2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findListOfUsers
-2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method existsByEmail
-2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.existsByEmail
-2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.existsByEmail
-2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method existsByUsername
-2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.existsByUsername
-2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.existsByUsername
-2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findUserByIdToActiveOrInactive
-2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findFirstAdmin
-2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.ticketmanager.mysql.database.repository.UserRepository.
-2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.ticketmanager.mysql.database.repository.EmailDetailsRepository…
-2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findOneEmailDetails
-2022-07-25 18:10:45 DEBUG [localhost-startStop-1] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.ticketmanager.mysql.database.repository.EmailDetailsRepository.
-2022-07-25 18:10:45 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.ticketmanager.mysql.database.repository.RoleRepository…
-2022-07-25 18:10:45 DEBUG [restartedMain] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByName
-2022-07-25 18:10:45 DEBUG [restartedMain] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query Role.findByName
-2022-07-25 18:10:45 DEBUG [restartedMain] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query Role.findByName
-2022-07-25 18:10:45 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.ticketmanager.mysql.database.repository.RoleRepository.
-2022-07-25 18:10:45 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.ticketmanager.mysql.database.repository.GroupAgentRepository…
-2022-07-25 18:10:45 DEBUG [restartedMain] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findGroupAgentsByName
-2022-07-25 18:10:45 DEBUG [restartedMain] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findGroupAgentsById
-2022-07-25 18:10:45 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.ticketmanager.mysql.database.repository.GroupAgentRepository.
-2022-07-25 18:10:45 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.ticketmanager.mysql.database.repository.BusinessFunctionRepository…
-2022-07-25 18:10:45 DEBUG [restartedMain] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findBusinessFunctionsById
-2022-07-25 18:10:45 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.ticketmanager.mysql.database.repository.BusinessFunctionRepository.
-2022-07-25 18:10:45 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.ticketmanager.mysql.database.repository.ScreensRepository…
-2022-07-25 18:10:45 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.ticketmanager.mysql.database.repository.ScreensRepository.
-2022-07-25 18:10:45 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.ticketmanager.mysql.database.repository.UnassignedTicketTimeRepository…
-2022-07-25 18:10:45 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.ticketmanager.mysql.database.repository.UnassignedTicketTimeRepository.
-2022-07-25 18:10:45 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@727fe6f8
-2022-07-25 18:10:46 INFO  [restartedMain] (o.a.j.l.DirectJDKLog:180) - Starting ProtocolHandler ["http-nio-9090"]
-2022-07-25 18:10:46 INFO  [restartedMain] (o.a.j.l.DirectJDKLog:180) - Using a shared selector for servlet write/read
-2022-07-25 18:10:46 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@7ebc54e7
-2022-07-25 18:10:47 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@10aa4d7b
-2022-07-25 18:10:48 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@7a60fa87
-2022-07-25 18:10:48 DEBUG [HikariPool-1 connection adder] (c.z.h.pool.HikariPool:404) - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
-2022-07-25 18:11:11 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-25 18:11:41 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-25 18:11:54 INFO  [http-nio-9090-exec-4] (o.a.j.l.DirectJDKLog:180) - Initializing Spring FrameworkServlet 'dispatcherServlet'
-2022-07-25 18:11:54 INFO  [http-nio-9090-exec-4] (c.f.t.s.JwtAuthenticationFilter:44) - Requested URL  : http://localhost:9090/TicketManager/api/auth/signin
-2022-07-25 18:11:55 ERROR [http-nio-9090-exec-4] (c.f.t.s.JwtTokenProvider:90) - Expired JWT token
-2022-07-25 18:11:55 INFO  [http-nio-9090-exec-4] (c.f.t.m.d.c.AuthController:244) - ***************** User signin *********************
-sysadmin@gmail.com
-2022-07-25 18:12:11 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-25 18:12:41 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-25 18:13:04 INFO  [Thread-7] (c.z.h.HikariDataSource:381) - HikariPool-1 - Shutdown initiated...
-2022-07-25 18:13:04 DEBUG [Thread-7] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
-2022-07-25 18:13:04 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@73243246: (connection evicted)
-2022-07-25 18:13:04 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@42cd198b: (connection evicted)
-2022-07-25 18:13:04 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@1ca96ef5: (connection evicted)
-2022-07-25 18:13:04 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@7ada41c: (connection evicted)
-2022-07-25 18:13:04 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@5421f881: (connection evicted)
-2022-07-25 18:13:04 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@772e8d9: (connection evicted)
-2022-07-25 18:13:04 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@727fe6f8: (connection evicted)
-2022-07-25 18:13:04 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@7ebc54e7: (connection evicted)
-2022-07-25 18:13:04 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@10aa4d7b: (connection evicted)
-2022-07-25 18:13:04 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@7a60fa87: (connection evicted)
-2022-07-25 18:13:04 DEBUG [Thread-7] (c.z.h.pool.HikariPool:404) - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
-2022-07-25 18:13:04 INFO  [Thread-7] (c.z.h.HikariDataSource:383) - HikariPool-1 - Shutdown completed.
-2022-07-25 12:43:05 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:121) - Scanning for repositories in packages com.foucsr.ticketmanager.mysql.database.repository.
-2022-07-25 12:43:05 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: groupAgentRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.GroupAgentRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 12:43:05 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: roleRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.RoleRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 12:43:05 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: unassignedTicketTimeRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.UnassignedTicketTimeRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 12:43:05 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: screensRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.ScreensRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 12:43:05 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: userRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.UserRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 12:43:05 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: emailDetailsRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.EmailDetailsRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 12:43:05 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: businessFunctionRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.BusinessFunctionRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 12:43:05 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:153) - Finished repository scanning.
-2022-07-25 12:43:05 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:121) - Scanning for repositories in packages com.foucsr.ticketmanager.mysql.database.repository.
-2022-07-25 12:43:05 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: userRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.UserRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 12:43:05 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: groupAgentRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.GroupAgentRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 12:43:05 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: emailDetailsRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.EmailDetailsRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 12:43:05 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: roleRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.RoleRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 12:43:05 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: unassignedTicketTimeRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.UnassignedTicketTimeRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 12:43:05 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: screensRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.ScreensRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 12:43:05 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: businessFunctionRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.BusinessFunctionRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 12:43:05 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:153) - Finished repository scanning.
-2022-07-25 12:43:05 INFO  [restartedMain] (o.a.j.l.DirectJDKLog:180) - Initializing ProtocolHandler ["http-nio-9090"]
-2022-07-25 12:43:05 INFO  [restartedMain] (o.a.j.l.DirectJDKLog:180) - Starting service [Tomcat]
-2022-07-25 12:43:05 INFO  [restartedMain] (o.a.j.l.DirectJDKLog:180) - Starting Servlet Engine: Apache Tomcat/8.5.34
-2022-07-25 12:43:05 INFO  [localhost-startStop-1] (o.a.j.l.DirectJDKLog:180) - Initializing Spring embedded WebApplicationContext
-2022-07-25 18:13:07 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:121) - Scanning for repositories in packages com.foucsr.ticketmanager.mysql.database.repository.
-2022-07-25 18:13:07 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: groupAgentRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.GroupAgentRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 18:13:07 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: screensRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.ScreensRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 18:13:07 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: roleRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.RoleRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 18:13:07 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: businessFunctionRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.BusinessFunctionRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 18:13:07 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: emailDetailsRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.EmailDetailsRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 18:13:07 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: unassignedTicketTimeRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.UnassignedTicketTimeRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 18:13:07 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: userRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.UserRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 18:13:07 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:153) - Finished repository scanning.
-2022-07-25 18:13:07 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:121) - Scanning for repositories in packages com.foucsr.ticketmanager.mysql.database.repository.
-2022-07-25 18:13:07 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: emailDetailsRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.EmailDetailsRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 18:13:07 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: roleRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.RoleRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 18:13:07 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: screensRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.ScreensRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 18:13:07 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: businessFunctionRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.BusinessFunctionRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 18:13:07 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: unassignedTicketTimeRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.UnassignedTicketTimeRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 18:13:07 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: groupAgentRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.GroupAgentRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 18:13:07 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: userRepository - Interface: com.foucsr.ticketmanager.mysql.database.repository.UserRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
-2022-07-25 18:13:07 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:153) - Finished repository scanning.
-2022-07-25 18:13:08 INFO  [restartedMain] (o.a.j.l.DirectJDKLog:180) - Initializing ProtocolHandler ["http-nio-9090"]
-2022-07-25 18:13:08 INFO  [restartedMain] (o.a.j.l.DirectJDKLog:180) - Starting service [Tomcat]
-2022-07-25 18:13:08 INFO  [restartedMain] (o.a.j.l.DirectJDKLog:180) - Starting Servlet Engine: Apache Tomcat/8.5.34
-2022-07-25 18:13:08 INFO  [localhost-startStop-1] (o.a.j.l.DirectJDKLog:180) - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_321\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/Phalgune/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208/jre/bin/server;C:/Users/Phalgune/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;D:\FocusR\Maven\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;D:\FocusR\Mysql\mysql-8.0.29-winx64-debug-test\mysql-8.0.29-winx64\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk1.8.0_321\bin;C:\Program Files\Java\jdk-17.0.3.1\bin;D:\FocusR\Git\Git\bin;D:\FocusR\Maven\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\Users\Jawahar\AppData\Local\Microsoft\WindowsApps;D:\FocusR\Git\Git\cmd;C:\Users\Jawahar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Jawahar\AppData\Roaming\npm;C:\Users\Jawahar\Downloads\java-2022-03-20220502T091501Z-001\java-2022-03\eclipse;;.]
-2022-07-25 18:13:08 INFO  [localhost-startStop-1] (o.a.j.l.DirectJDKLog:180) - Initializing Spring embedded WebApplicationContext
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:495) - Driver class com.mysql.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
-  context: TicketManager
-  delegate: true
-----------> Parent Classloader:
-org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7e90b5ba
-
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1119) - HikariPool-1 - configuration:
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - allowPoolSuspension.............false
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - autoCommit......................true
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - catalog.........................none
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - connectionInitSql...............none
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - connectionTestQuery.............none
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - connectionTimeout...............30000
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - dataSource......................none
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - dataSourceClassName.............none
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - dataSourceJNDI..................none
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - dataSourceProperties............{password=<masked>}
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - driverClassName................."com.mysql.jdbc.Driver"
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - healthCheckProperties...........{}
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - healthCheckRegistry.............none
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - idleTimeout.....................600000
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - initializationFailFast..........true
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - initializationFailTimeout.......1
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - isolateInternalQueries..........false
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - jdbc4ConnectionTest.............false
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - jdbcUrl.........................jdbc:mysql://122.165.191.124:3306/ticket_manager_dev?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - leakDetectionThreshold..........0
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - maxLifetime.....................1800000
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - maximumPoolSize.................10
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - metricRegistry..................none
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - metricsTrackerFactory...........none
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - minimumIdle.....................10
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - password........................<masked>
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - poolName........................"HikariPool-1"
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - readOnly........................false
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - registerMbeans..................false
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - scheduledExecutor...............none
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - scheduledExecutorService........internal
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - schema..........................none
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - threadFactory...................internal
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - transactionIsolation............default
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - username........................"demo"
-2022-07-25 18:13:08 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - validationTimeout...............5000
-2022-07-25 18:13:08 INFO  [localhost-startStop-1] (c.z.h.HikariDataSource:110) - HikariPool-1 - Starting...
-2022-07-25 18:13:10 DEBUG [localhost-startStop-1] (c.z.h.pool.HikariPool:538) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@6a6dab
-2022-07-25 18:13:10 INFO  [localhost-startStop-1] (c.z.h.HikariDataSource:123) - HikariPool-1 - Start completed.
-2022-07-25 18:13:10 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
-2022-07-25 18:13:10 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@3b67e991
-2022-07-25 18:13:11 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@4f511c92
-2022-07-25 18:13:12 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@6941f474
-2022-07-25 18:13:12 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@2a4228e9
-2022-07-25 18:13:13 DEBUG [localhost-startStop-1] (o.s.d.j.r.c.JpaMetamodelMappingContextFactoryBean:77) - Initializing JpaMetamodelMappingContext…
-2022-07-25 18:13:13 DEBUG [localhost-startStop-1] (o.s.d.j.r.c.JpaMetamodelMappingContextFactoryBean:84) - Finished initializing JpaMetamodelMappingContext!
-2022-07-25 18:13:13 DEBUG [localhost-startStop-1] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.ticketmanager.mysql.database.repository.UserRepository…
-2022-07-25 18:13:13 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByUsername
-2022-07-25 18:13:13 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.findByUsername
-2022-07-25 18:13:13 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.findByUsername
-2022-07-25 18:13:13 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByEmail
-2022-07-25 18:13:13 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.findByEmail
-2022-07-25 18:13:13 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.findByEmail
-2022-07-25 18:13:13 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByResetToken
-2022-07-25 18:13:13 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.findByResetToken
-2022-07-25 18:13:13 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.findByResetToken
-2022-07-25 18:13:13 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByFirstNameAndLastName
-2022-07-25 18:13:13 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findUser
-2022-07-25 18:13:13 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByIdIn
-2022-07-25 18:13:13 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.findByIdIn
-2022-07-25 18:13:13 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.findByIdIn
-2022-07-25 18:13:13 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByVendorId
-2022-07-25 18:13:13 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByUsernameOrEmail
-2022-07-25 18:13:13 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.findByUsernameOrEmail
-2022-07-25 18:13:13 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.findByUsernameOrEmail
-2022-07-25 18:13:13 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findListOfUsers
-2022-07-25 18:13:13 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByAgentId
-2022-07-25 18:13:13 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method existsByEmail
-2022-07-25 18:13:13 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.existsByEmail
-2022-07-25 18:13:13 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.existsByEmail
-2022-07-25 18:13:13 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method existsByUsername
-2022-07-25 18:13:13 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.existsByUsername
-2022-07-25 18:13:13 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.existsByUsername
-2022-07-25 18:13:13 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findUserByIdToActiveOrInactive
-2022-07-25 18:13:13 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findFirstAdmin
-2022-07-25 18:13:13 DEBUG [localhost-startStop-1] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.ticketmanager.mysql.database.repository.UserRepository.
-2022-07-25 18:13:13 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@7209dbad
-2022-07-25 18:13:13 DEBUG [localhost-startStop-1] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.ticketmanager.mysql.database.repository.EmailDetailsRepository…
-2022-07-25 18:13:13 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findOneEmailDetails
-2022-07-25 18:13:13 DEBUG [localhost-startStop-1] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.ticketmanager.mysql.database.repository.EmailDetailsRepository.
-2022-07-25 18:13:13 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.ticketmanager.mysql.database.repository.RoleRepository…
-2022-07-25 18:13:13 DEBUG [restartedMain] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByName
-2022-07-25 18:13:13 DEBUG [restartedMain] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query Role.findByName
-2022-07-25 18:13:13 DEBUG [restartedMain] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query Role.findByName
-2022-07-25 18:13:13 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.ticketmanager.mysql.database.repository.RoleRepository.
-2022-07-25 18:13:13 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.ticketmanager.mysql.database.repository.GroupAgentRepository…
-2022-07-25 18:13:13 DEBUG [restartedMain] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findGroupAgentsByName
-2022-07-25 18:13:13 DEBUG [restartedMain] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findGroupAgentsById
-2022-07-25 18:13:13 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.ticketmanager.mysql.database.repository.GroupAgentRepository.
-2022-07-25 18:13:13 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.ticketmanager.mysql.database.repository.BusinessFunctionRepository…
-2022-07-25 18:13:13 DEBUG [restartedMain] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findBusinessFunctionsById
-2022-07-25 18:13:13 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.ticketmanager.mysql.database.repository.BusinessFunctionRepository.
-2022-07-25 18:13:13 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.ticketmanager.mysql.database.repository.ScreensRepository…
-2022-07-25 18:13:13 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.ticketmanager.mysql.database.repository.ScreensRepository.
-2022-07-25 18:13:14 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.ticketmanager.mysql.database.repository.UnassignedTicketTimeRepository…
-2022-07-25 18:13:14 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.ticketmanager.mysql.database.repository.UnassignedTicketTimeRepository.
-2022-07-25 18:13:14 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@157b2e07
-2022-07-25 18:13:14 INFO  [restartedMain] (o.a.j.l.DirectJDKLog:180) - Starting ProtocolHandler ["http-nio-9090"]
-2022-07-25 18:13:14 INFO  [restartedMain] (o.a.j.l.DirectJDKLog:180) - Using a shared selector for servlet write/read
-2022-07-25 18:13:15 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@ddf0388
-2022-07-25 18:13:15 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@7d8cae11
-2022-07-25 18:13:16 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@59859fcf
-2022-07-25 18:13:16 DEBUG [HikariPool-1 connection adder] (c.z.h.pool.HikariPool:404) - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
-2022-07-25 18:13:40 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-25 18:14:10 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-25 18:14:40 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-25 18:15:10 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-25 18:15:40 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-25 18:15:56 INFO  [http-nio-9090-exec-1] (o.a.j.l.DirectJDKLog:180) - Initializing Spring FrameworkServlet 'dispatcherServlet'
-2022-07-25 18:15:56 INFO  [http-nio-9090-exec-1] (c.f.t.s.JwtAuthenticationFilter:44) - Requested URL  : http://localhost:9090/TicketManager/groupAgents/test
-2022-07-25 18:15:56 ERROR [http-nio-9090-exec-1] (c.f.t.s.JwtAuthenticationEntryPoint:25) - Responding with unauthorized error. Message - Full authentication is required to access this resource
-2022-07-25 18:16:10 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-25 18:16:21 INFO  [http-nio-9090-exec-3] (c.f.t.s.JwtAuthenticationFilter:44) - Requested URL  : http://localhost:9090/TicketManager/groupAgents/test
-2022-07-25 18:16:22 DEBUG [http-nio-9090-exec-3] (o.s.d.r.c.s.TransactionalRepositoryProxyPostProcessor$AbstractFallbackTransactionAttributeSource:355) - Adding transactional method 'findById' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
-2022-07-25 18:16:40 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-25 18:17:10 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-25 18:17:40 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2022-07-25 18:18:10 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-08-17 09:33:37 WARN  [HikariPool-1 housekeeper] (c.z.h.p.HikariPool$HouseKeeper:758) - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15h18m10s449ms144µs700ns).
+2022-08-17 09:33:37 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-08-17 09:33:37 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@46edc951: (connection has passed maxLifetime)
+2022-08-17 09:33:37 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@40fb2072: (connection has passed maxLifetime)
+2022-08-17 09:33:37 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@769b6f9c: (connection has passed maxLifetime)
+2022-08-17 09:33:37 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@2e03a42: (connection has passed maxLifetime)
+2022-08-17 09:33:37 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@3bb21f46: (connection has passed maxLifetime)
+2022-08-17 09:33:37 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@34c27eb7: (connection has passed maxLifetime)
+2022-08-17 09:33:37 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@4ad8348b: (connection has passed maxLifetime)
+2022-08-17 09:33:37 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@6774525: (connection has passed maxLifetime)
+2022-08-17 09:33:37 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@3db4b91b: (connection has passed maxLifetime)
+2022-08-17 09:33:37 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@4f842f6c: (connection has passed maxLifetime)
+2022-08-17 09:33:37 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@70efb0e8
+2022-08-17 09:33:37 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@4121743
+2022-08-17 09:33:37 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@33739c57
+2022-08-17 09:33:37 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@518ce6ad
+2022-08-17 09:33:37 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@2d0e5f35
+2022-08-17 09:33:37 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@1485658d
+2022-08-17 09:33:37 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@29a33641
+2022-08-17 09:33:37 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@67b8e7fc
+2022-08-17 09:33:37 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@6fe62a9a
+2022-08-17 09:33:37 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@74b38a77
+2022-08-17 09:34:07 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-08-17 09:34:37 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-08-17 09:35:07 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-08-17 09:35:37 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-08-17 09:36:07 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-08-17 09:36:37 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-08-17 09:37:07 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-08-17 09:37:37 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-08-17 09:38:07 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-08-17 09:38:11 INFO  [RMI TCP Connection(141)-127.0.0.1] (c.z.h.HikariDataSource:381) - HikariPool-1 - Shutdown initiated...
+2022-08-17 09:38:11 DEBUG [RMI TCP Connection(141)-127.0.0.1] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2022-08-17 09:38:11 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@70efb0e8: (connection evicted)
+2022-08-17 09:38:11 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@4121743: (connection evicted)
+2022-08-17 09:38:11 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@33739c57: (connection evicted)
+2022-08-17 09:38:11 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@518ce6ad: (connection evicted)
+2022-08-17 09:38:11 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@2d0e5f35: (connection evicted)
+2022-08-17 09:38:11 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@1485658d: (connection evicted)
+2022-08-17 09:38:11 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@29a33641: (connection evicted)
+2022-08-17 09:38:11 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@67b8e7fc: (connection evicted)
+2022-08-17 09:38:11 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@6fe62a9a: (connection evicted)
+2022-08-17 09:38:11 DEBUG [HikariPool-1 connection closer] (c.z.hikari.pool.PoolBase:127) - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@74b38a77: (connection evicted)
+2022-08-17 09:38:11 DEBUG [RMI TCP Connection(141)-127.0.0.1] (c.z.h.pool.HikariPool:404) - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2022-08-17 09:38:11 INFO  [RMI TCP Connection(141)-127.0.0.1] (c.z.h.HikariDataSource:383) - HikariPool-1 - Shutdown completed.

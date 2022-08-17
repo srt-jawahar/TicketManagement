@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import com.foucsr.ticketmanager.exception.IdNotFoundException;
 import com.foucsr.ticketmanager.mysql.database.model.BusinessFunctions;
 import com.foucsr.ticketmanager.mysql.database.model.GroupAgents;
+import com.foucsr.ticketmanager.mysql.database.model.TicketingLOV;
 import com.foucsr.ticketmanager.mysql.database.model.UnAssignedTicket;
 import com.foucsr.ticketmanager.mysql.database.repository.BusinessFunctionRepository;
 import com.foucsr.ticketmanager.mysql.database.repository.GroupAgentRepository;
@@ -31,9 +32,11 @@ public class GroupAgentService {
 	private BusinessFunctionRepository businessfunctrepository;
 
 	// GET BY ID
-	public GroupAgents getGroupAgents(Long groupAgentId) throws IdNotFoundException {
-		return groupAgentRepository.findById(groupAgentId)
+	public ResponseEntity<GroupAgents> getGroupAgents(Long groupAgentId) throws IdNotFoundException {
+		GroupAgents getGroups = groupAgentRepository.findById(groupAgentId)
 				.orElseThrow(() -> new IdNotFoundException("Given Id not Found"));
+		
+		return new ResponseEntity(getGroups,HttpStatus.OK);
 	}
 
 	// GET BY NAME
@@ -43,11 +46,11 @@ public class GroupAgentService {
 	}
 
 	// DELETE BY ID
-	public String deleteGroupAgents(Long groupAgentId) throws IdNotFoundException {
+	public ResponseEntity<GroupAgents> deleteGroupAgents(Long groupAgentId) throws IdNotFoundException {
 		GroupAgents delGroup = groupAgentRepository.findById(groupAgentId)
 				.orElseThrow(() -> new IdNotFoundException("Given Id not Found"));
 		groupAgentRepository.delete(delGroup);
-		return "The Given GroupAgent ID " + groupAgentId + " is deleted successfully...!!!";
+		return new ResponseEntity(delGroup, HttpStatus.OK);
 	}
 
 	// DELETE ALL
@@ -64,11 +67,11 @@ public class GroupAgentService {
 
 	public ResponseEntity<?> CreateorUpdateGroupAgents(GroupAgents groupAgents, HttpServletRequest http) {
 
-		if (!"Y".equalsIgnoreCase(groupAgents.getTicketAssignment())
-				&& !"N".equalsIgnoreCase(groupAgents.getTicketAssignment())) {
-
-			return new ResponseEntity(new ApiResponse(false, "Ticket should Y/N type"), HttpStatus.NOT_ACCEPTABLE);
-		}
+//		if (!"Y".equalsIgnoreCase(groupAgents.getTicketAssignment())
+//				&& !"N".equalsIgnoreCase(groupAgents.getTicketAssignment())) {
+//
+//			return new ResponseEntity(new ApiResponse(false, "Ticket should Y/N type"), HttpStatus.NOT_ACCEPTABLE);
+//		}
 
 		try {
 			Long groupAgentId = groupAgents.getGroupAgentId();
@@ -200,5 +203,41 @@ public class GroupAgentService {
 		}
 
 		return new ResponseEntity(unassignticket, HttpStatus.OK);
+	}
+	
+	public ResponseEntity<?> getGroupsLOVList()
+	{
+		TicketingLOV ticketingLOV = new TicketingLOV();
+		SCAUtil sca = new SCAUtil();
+		
+		try
+		{
+			ticketingLOV.setTickettimings(getTicketTimings());
+			ticketingLOV.setBusinessfunct(getBusinessFunction());
+		}catch(Exception e)
+		{
+			String msg = sca.getErrorMessage(e);
+			return new ResponseEntity(new ApiResponse(false, "Unable to get LOV"), HttpStatus.BAD_REQUEST);
+		}
+		return new ResponseEntity(ticketingLOV, HttpStatus.OK);
+	}
+	
+	private List<String> getTicketTimings()
+	{
+		List<String> ticketTime = new ArrayList<>();
+		ticketTime.add("15 minutes");
+		ticketTime.add("30 minutes");
+		ticketTime.add("1 hour");
+		ticketTime.add("3 hours");
+		return ticketTime;
+	}
+	
+	private List<String> getBusinessFunction()
+	{
+		List<String> businessfunct = new ArrayList<>();
+		businessfunct.add("Finance");
+		businessfunct.add("Marketing");
+		businessfunct.add("Legal");
+		return businessfunct;
 	}
 }

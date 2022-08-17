@@ -34,9 +34,11 @@ public class GroupAgentController
 	private GroupAgentService groupAgentService;
 	
 	@DeleteMapping("delete/{groupAgentId}")
-	public ResponseEntity<String> deleteGroupAgents(@PathVariable Long groupAgentId)
+	public ResponseEntity<?> deleteGroupAgents(@PathVariable Long groupAgentId)
 	{	
-		return ResponseEntity.status(HttpStatus.OK).body(groupAgentService.deleteGroupAgents(groupAgentId));
+		ResponseEntity<?> delgroup = groupAgentService.deleteGroupAgents(groupAgentId);
+		return delgroup;
+		//return ResponseEntity.status(HttpStatus.OK).body(groupAgentService.deleteGroupAgents(groupAgentId));
 	}
 	
 	@DeleteMapping("removeAll")
@@ -46,9 +48,10 @@ public class GroupAgentController
 	}
 	
 	@GetMapping("get/{groupAgentId}")
-	public ResponseEntity<GroupAgents> getGroupAgents(@PathVariable Long groupAgentId)
+	public ResponseEntity<?> getGroupAgents(@PathVariable Long groupAgentId)
 	{
-		return ResponseEntity.status(HttpStatus.OK).body(groupAgentService.getGroupAgents(groupAgentId));
+		ResponseEntity<?> getgroup = groupAgentService.getGroupAgents(groupAgentId);
+		return getgroup;
 	}
 	
 	@GetMapping("getName/{groupAgentName}")
@@ -111,9 +114,17 @@ public class GroupAgentController
 		return createorupdateBussFunctions;
 	}
 	
+	@GetMapping("/getLOVList")
+	public ResponseEntity<?> getTicketingLOVList(Principal principal)
+	{
+		ResponseEntity<?> message = groupAgentService.getGroupsLOVList();
+		return message;
+	}
+	
 	@GetMapping("getFunctions")
 	public ResponseEntity<?> getBusinessFunctions1()
 	{
+		getGroupAgents();
 		ResponseEntity<?> getFunctions = groupAgentService.getBusinessFunctions();
 		return getFunctions;	
 	}
@@ -121,7 +132,8 @@ public class GroupAgentController
 	@GetMapping("getListofUnassignedTicket")
 	public ResponseEntity<?> getUnassignedTicket()
 	{
-		return ResponseEntity.status(HttpStatus.OK).body(groupAgentService.getUnAssignedTicket());
+		ResponseEntity<?> unassignedTicket = groupAgentService.getUnAssignedTicket();
+		return unassignedTicket;
 	}
 	
 	@GetMapping("test")
